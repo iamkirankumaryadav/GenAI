@@ -45,7 +45,7 @@ A GAN consists of two main neural networks: a generator and a discriminator.
 ### **Foundation Models**
 - The versatile tools of generative AI. A toolbox with many different AI techniques.
 - The building blocks for various generative AI applications.
-- They offer a versatile and powerful base that can be customized for specific tasks across different data types (Text, Image, Video, Audio, etc)
+- A versatile and powerful base that can be customized for specific tasks across different data types (Text, Image, Video, Audio, etc)
 - They can be trained on various data types (text, code, images) and then adapted for specific tasks, like writing different creative text formats or generating images based on a description.
 
 **How foundation model work?**
