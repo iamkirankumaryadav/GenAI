@@ -134,12 +134,12 @@ A GAN consists of two main neural networks: a generator and a discriminator.
 
 **Core Idea:**
 
-1. **Traditional Reinforcement Learning:** 
+#### 1. **Traditional Reinforcement Learning:** 
 - In standard reinforcement learning, an AI model interacts with an environment and learns through trial and error.
 - It receives rewards for good actions and penalties for bad ones.
 - The goal is for the model to learn a policy that maximizes rewards.
 
-2. **Adding the Human Touch:**  
+#### 2. **Adding the Human Touch:**  
 - In RLHF, humans provide additional feedback beyond just rewards. This feedback can be in various forms, like:
 - **Explicit ratings:** Humans might rate the model's outputs (like text generation) on a scale of good to bad.
 - **Choosing preferred options:** Humans might choose which of two outputs from the model they prefer. 
