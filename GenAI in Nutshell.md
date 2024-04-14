@@ -1,0 +1,105 @@
+- Ever since computers were invented they've just been glorified calculators machines that execute the exact instructions given to them by the programmers.
+- But something incredible is happening now computers have started gaining the ability to learn and think and communicate just like we do.
+- They can do creative intellectual work that previously only humans could do, call this technology GenAI and you may have encountered it already through products like GPT.
+- Intelligence is now available as a service kind of like a giant brain floating in the sky.
+- Anyone can talk to it's not perfect but it is surprisingly capable and it is improving at an exponential rate. 
+- This is a big deal it's going to affect just about every person and company on the planet positively or negatively.
+- Practical terms beyond the hype the better you understand this technology as a person team or company the better equipped you will be to survive and thrive in the age of AI.
+- So here's a silly but useful mental model for this you have Einstein in your basement everyone does and by Einstein,
+- I mean the combination of every smart person who ever lived you can talk to Einstein whenever you want,
+- He has instant access to the sum of all human knowledge and will answer anything you want within seconds never running out of patience.
+- He can also take on any role you want a comedian poet doctor coach and will be an expert in that field.
+- He has some human-like limitations though he can make mistakes he can jump to conclusions, and can misunderstand you.
+- But the biggest limitation is your imagination and your ability to communicate effectively with them this skill is known as prompt engineering.
+- let's clarify some terms AI as you probably know stands for AI is not new, like machine learning and computer vision have been around for decades.
+- Whenever you see a YouTube recommendation or a web search result, that's traditional AI in action.
+- Generative AI is AI that generates new original content rather than just predicting or classifying existing content.
+- **GPT** Generative Pretrained Transformers example large language models or LLMs are a type of GneAI that can communicate using normal human language.
+- ChatGPT is a product by the company OpenAI it started as an LLM essentially an advanced chatbot using a new architecture called the **Transformer**.
+- Architecture is so fluent in human language that anyone can use it you don't need to be an AI expert or programmer.
+- That's kind of what triggered the whole revolution so how does it work well as LLM?
+- An artificial neural network is a bunch of numbers or parameters connected similar to how our brain is a bunch of neurons or brain cells connected to neural networks.
+- Only deal with numbers you send in numbers and depending on how the parameters are set all the numbers come out but any kind of content such as text or images can be represented as numbers.
+- So let's say I write "dogs are" when I send that to a large language model that gets converted to numbers processed by the neural network and then the resulting numbers are converted back into text in this case the word animals.
+- Dogs are animals so yeah this is a guess to the next word machine the interesting part is if we take that output combine it with the input and send it through the model again then it will continue adding new words.
+- When you type something in chat GPT in this case for example it generates a whole story and I can continue this indefinitely by adding more prompts.
+- An LLM may have billions or even trillions of parameters that's why they're called large so how are all these numbers set well not through manual programming?
+- That would be impossible but through training just like babies learning to speak a baby isn't told how to speak.
+- She doesn't get an instruction manual instead she listens to people speaking around her and when she's heard enough she starts seeing the pattern.
+- She speaks a few words at first to the Delight of her parents and then later on full sentences.
+- Similarly, during a training period the language model is fed a mindboggling amount of text to learn from internet sources it then plays guess the next word with all of this over and over again.
+- The parameters are automatically tweaked until it starts getting good at predicting the next word.
+- This is called backpropagation which is a fancy term for "oh I guessed wrong" I better change something however to become truly useful.
+- A model also needs to undergo human training this is called reinforcement learning with human feedback (RLHF) and it involves thousands of hours of humans painstakingly testing and evaluating output from the model and giving feedback.
+- The P stands for GPT pre-trained although in the future we will probably have models that can learn continuously rather than just during training and fine-tuning.
+- Now although chat GPT kind of got the ball rolling GPT isn't the only model out there,
+- New models are sprouting like mushrooms they vary a lot in terms of speed capability and cost some can be downloaded and run locally,
+- Others are only online some are free or open-source, others are commercial products some are super easy to use While others require a complicated technical setup.
+- Some are specialized for certain use cases others are more general and can be used for almost anything and some are baked into products in the form of co-pilots or chat windows.
+- With a free model you may just be getting a smart high school student in your basement rather than Einstein.
+- The difference between for example GPT 3.5 and GPT 4 is massive note that different types of generative AI models generate different types of content.
+- Text-to-text models like gpc4 take text as input and generate text as output the text can be natural language but it can also be structured information like code, JSON, HTML.
+- I use this a lot myself to generate code when programming, it saves an incredible amount of time and I also learn a lot from the code it generates.
+- Text-to-image models will generate images that describe what you want and an image gets generated for you you can even pick a style.
+- Image-to-image models can do things like transforming or combining images.
+- Image-to-text models which describe the contents of a given image.
+- Speech-to-text models create voice transcriptions which is useful for things like meeting notes.
+- Text-to-audio models generate music or sounds from a prompt.
+- Text-to-video models that generate videos from a prompt sooner or later we'll have infinite movie series that auto-generate the next episode tailored to your tastes as you're watching kind of scary.
+- If you think about it one Trend now is multimodal AI products meaning they combine different models into one product so you can work with text, images, audio, etc. without switching tools.
+- The ChatGPT mobile app is a good example of this is just for fun I took a photo of this room and I asked where I could hide stuff.
+- Initially, language models were just word predictors and statistical machines with limited practical use but as they became larger and were trained on more data,
+- They started gaining emergent, expected capabilities that surprised even the developers of the technology they could roleplay, write poetry, write high-quality code, discuss company strategy provide legal and medical advice coaches teach creative and intellectual things that only humans could do.
+- Previously it turns out that when a model has seen enough text and images it starts to see patterns and understand higher-level concepts are just like a baby learning to understand the world.
+- Let's take a simple example I'll give gpc4 this little drawing that involves a string a pair of scissors an egg a pot and a fire what will happen if I use the scissors?
+- The model has most likely not been trained on this exact scenario yet it gave a pretty good answer which demonstrates a basic understanding of the nature of scissors egg's gravity and heat.
+- When GPT4 was released I started using it as a coding assistant and I was blown away when prompted effectively it was a better programmer than anyone.
+- The thing is our intellectual capabilities aren't improving that much our brains are about the same size and weight as they've been for thousands of years.
+- Computers on the other hand have been around for only 80 years or so and now with generative AI, they are suddenly capable of speaking human languages fluently and carrying out an increasing number of intellectual creative tasks that previously only humans could do.
+- So we are right here at the crossing point where AI is better at some things and humans are better at some things but AI's capabilities are improving at an exponential rate.
+- While ours aren't we don't know how long that exponential improvement will continue or if it will level off at some point.
+- But we're entering a new world order now this isn't the first revolution we've experienced.
+- We learned fire, we learned how to do agriculture, and we invented the printing press, steam power, and the telegraph these were all revolutionary changes but they took decades or centuries to become widespread.
+- In the AI revolution new technology spreads worldwide almost instantly dealing with this rate of change is a huge challenge for both individuals and companies.
+- I've noticed that people and companies tend to fall into different kind of mindset categories when it comes to AI.
+- On one side we have denied the belief that AI cannot do our job or we don't have time to look into this technology this is a dangerous place to be.
+- A common saying is AI might not take your job but people using AI will and this is true for both individuals and companies.
+- On the other side of the scale we have panic and despair in the belief that AI is going to take my job no matter what AI is going to make my company go bankrupt.
+- Neither of these mindsets is helpful so I propose a middle ground a balanced positive mindset AI is going to make my team and my company insanely productive.
+- Personally, with this mindset, I feel like I've gained superpowers I can go from idea to result in so much shorter time I can focus more on what I want to achieve.
+- I'm learning a lot faster too it's like having an awesome mentor with me at all times this mindset not only feels good but it also equips you for the future.
+- Makes you less likely to lose your job or your company and more likely to thrive in the age of AI despite all the uncertainty.
+- So one important question is is human role X needed in the age of AI for example are doctors, developers, lawyers, CEOs, whatever.
+- So this question becomes more and more relevant as the AI capabilities improve.
+- well some jobs will disappear for sure but for most roles, I think we humans still need someone with domain knowledge to decide what to ask the AI and how to formulate the Prompt.
+- What context needs to be provided and how to evaluate the result of AI models aren't perfect they can be brilliant sometimes but sometimes also terribly stupid.
+- They can sometimes hallucinate and provide bogus information in a very convincing way.
+- So when should you trust the AI response? When should you double-check or do the work yourself what about legal compliance, and data security, and what information can we send to an AI model?
+- Where is that data stored a human expert is needed to make these judgment calls and compensate for the weaknesses of the AI model.
+- So I recommend thinking of AI as your colleague a genius but also an oddball with some personal quirks that you need to learn to work with you need to recognize when your genius colleague is drunk.
+- As a doctor, my AI colleagues can help diagnose rare diseases that I didn't even know existed.
+- As a lawyer, my AI colleague could do legal research and review contracts allowing me to spend more time with my client.
+- As a teacher, my AI colleague could grade tests to help generate course content and provide individual support to students.
+- And if you're not sure how it can help you just ask if I work as X how can you help me overall.
+- I find that the combination of humans plus AI That's where the magic lies it's important to distinguish between the models and the products that build on top of them,
+- As a user you don't normally interact with the model directly instead, you interact with a product website or a mobile app,
+- Which in turn talks to the model behind the scenes products provides a user interface and adds capabilities and data that aren't part of the model itself.
+- Example: The ChatGPT product keeps track of your message history while the GPT 4 model itself doesn't have any message history.
+- As a developer, you can use these models to build your AI-powered products and features for example let's say you have an e-learning site.
+- You could add a chat bot to answer questions about the courses.
+- As a recruitment company, you might build AI-powered tools to help evaluate candidates.
+- In both these cases your users interact with your product and then your product interacts with the model this is done via APIS or application programming interfaces which allow your code to talk to the model.
+- As a product developer you can use AI models kind of like an external brain to insert intelligence into your product.
+- Very powerful to use GenAI effectively you need to get good at prompt engineering or prompt design.
+- As I prefer to call it this skill is needed both as a user and as a product developer.
+- Because in both cases you need to be able to craft effective prompts that produce useful results from an AI model.
+- Here's an example let's say I want help planning a workshop this prompt is unlikely to give useful results because no matter how smart the AI is if it doesn't know the context of my workshop it can only give fake high-level recommendations.
+- The second prompt is better now I provided some context this is normally done iteratively write a prompt look at the result add a follow-up prompt to provide more information or edit the original prompt and rinse and repeat until you get a good result.
+- The better you get at prompt engineering the faster and better results you will get from AI.
+- The most important thing is to practice and Learn by doing a nice side effect is that you will become better at communicating in general.
+- Since prompt engineering is all about clarity and effective communication.
+- I think the next Frontier for GenAI is autonomous agents with tools, these are AI-powered software entities that run on their own,
+- Rather than just sitting around waiting for you to prompt them all the time.
+- The better you understand it the more likely it is to be an opportunity rather than a threat.
+- GenAI is more powerful than you think the biggest limitation is not the technology but your imagination like what can I do and your prompt engineering skills.
+- You'll improve over time with deliberate practice so my best tip is to experiment and make this part of your day-to-day life and learning happen automatically.
