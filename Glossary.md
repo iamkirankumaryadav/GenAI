@@ -8,6 +8,11 @@
 - Example: GenAI agents can plan a trip, find hotels, and flights, research activities, and make reservations.
 - GenAI agents can be a powerful tool for boosting productivity and streamlining workflows.
 
+### **Annotation**
+- The process of labelling or tagging data. Used to train and fine-tune AI models.
+- Text: POS Tagging, Sentiment Analysis | Image: Caption or labels | Audio: Transcripts or Lyrics.
+- Annotation helps data to learn and understand the pattern, context, and meaning of data it is meant to interpret or generate.
+
 ### **Artificial General Intelligence (AGI)**
 - A hypothetical type of AI that would be much more powerful than we have today.
 - Human-like intelligence: Learning, complex problem-solving, reasoning, and adapting to new situations.
@@ -15,11 +20,6 @@
 - Self-teaching/learning: It would be able to learn and improve on its own without needing constant human intervention.
 - Scientific breakthroughs: It could accelerate scientific discovery by analyzing vast amounts of data.
 - Boosting human productivity: It can handle any intellectual task, freeing you up to focus on creative endeavours.
-
-### **Annotation**
-- The process of labelling or tagging data. Used to train and fine-tune AI models.
-- Text: POS Tagging, Sentiment Analysis | Image: Caption or labels | Audio: Transcripts or Lyrics.
-- Annotation helps data to learn and understand the pattern, context, and meaning of data it is meant to interpret or generate.
 
 ### **Artificial Super Intelligence (ASI)**
 - ASI refers to a stage of AI that surpasses human intelligence across all fields.
@@ -29,6 +29,20 @@
 - Current state of ASI: Purely hypothetical, actively debated, ethical considerations.
 - Potential of ASI: Solving global problems (Climate, disease, poverty), scientific breakthroughs, boosting human potential.
 - Risks of ASI: Existential threat, unforeseen consequences (actions we can't predict), job displacement.
+
+### Attention Mechanism:
+- The attention mechanism is a powerful technique used in various AI models to focus on important parts of the input data.
+- How the attention mechanism works:
+  1. Scanning the input data: See a variety of words in a sentence, or object in an image.
+  2. Focusing on the query vector: Focus on the words or subject/topic which is most important in the query/prompt.
+  3. Checking each vector: Compare with each word and see if it has a relevant relationship or information.
+  4. Prioritizing the ones (Assigning weights): Relevant information gets a higher weight (more attention)
+  5. Weighted sum: You collect the relevant information as compared to irrelevant ones.
+- Example:
+  - Machine Translation: You are translating "The red car is parked in the driveway". The model attends more to "red" and "car"
+  - Text summarization: Summarizing a news article, the model attends to keywords like "earthquake" or "fire" to create a concise summary.
+  - Question answering: Answer "What is the colour of the car?" The model attends to the colours to find the answer.
+- By focusing on relevant parts of the data, the attention mechanism helps models make better predictions/decisions in various tasks.
 
 ### **Bots**
 - Bots are automated programs that perform specific tasks over a network.
