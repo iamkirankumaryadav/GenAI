@@ -122,10 +122,10 @@
 - Multimodal AI is like having different senses working together to understand the world, just like humans do.
 - An AI that can process information from multiple sources, of multiple data types (Text, image, video, and audio)
 - Real-world examples:
-  - Self-driving cars: Cameras (images), radar (signals from objects), LiDAR (3D laser scanning)
-  - Social media content moderation: AI can analyze text, images, audio, and videos to identify appropriate content.
-  - Virtual assistant: Image search, text prompts, voice commands (audio) and Google camera search with live translation.
-  - Medical diagnosis: AI can analyze medical images (X-rays, MRIs) and patient history (text) for more accurate diagnosis.
+  1. Self-driving cars: Cameras (images), radar (signals from objects), LiDAR (3D laser scanning)
+  2. Social media content moderation: AI can analyze text, images, audio, and videos to identify appropriate content.
+  3. Virtual assistant: Image search, text prompts, voice commands (audio) and Google camera search with live translation.
+  4. Medical diagnosis: AI can analyze medical images (X-rays, MRIs) and patient history (text) for more accurate diagnosis.
 - By combining different types of information, multimodal AI gets a richer understanding of the world.
 - AI can perform tasks that would be difficult for traditional AI / unimodal AI models.
 
