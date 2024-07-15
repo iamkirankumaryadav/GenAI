@@ -1,15 +1,15 @@
 # **Glossary of GenAI**
 
 ### **Agents (AI Assistant)**
-- GenAI agents are essentially intelligent software programs that can act on your behalf.
+- GenAI agents are intelligent software programs that can act on your behalf.
 - GenAI agents are designed to understand your instructions and complete tasks using their knowledge and abilities.
-- GenAI agents can make decisions, and even learn from past interactions to improve their performance.
+- GenAI agents can make decisions and learn from past interactions to improve their performance.
 - GenAI can access various resources, databases and APIs to gather information and complete tasks.
 - Example: GenAI agents can plan a trip, find hotels, and flights, research activities, and make reservations.
 - GenAI agents can be a powerful tool for boosting productivity and streamlining workflows.
 
 ### **Artificial General Intelligence (AGI)**
-- A hypothetical type of AI that would be much more powerful than what we have today.
+- A hypothetical type of AI that would be much more powerful than we have today.
 - Human-like intelligence: Learning, complex problem-solving, reasoning, and adapting to new situations.
 - Going beyond training: It would be able to learn and perform new tasks without explicit programming.
 - Self-teaching/learning: It would be able to learn and improve on its own without needing constant human intervention.
@@ -117,6 +117,17 @@
 - Essentially, it is the core framework that embodies an AI’s learned knowledge and capabilities.
 - A model is created through a process called training, where it is fed large amounts of data and learns to recognize patterns, make predictions, or generate outputs based on that data.
 - Each model has its specific architecture and parameters, which define its abilities and limitations.
+
+### Multimodal AI:
+- Multimodal AI is like having different senses working together to understand the world, just like humans do.
+- An AI that can process information from multiple sources, of multiple data types (Text, image, video, and audio)
+- Real-world examples:
+  - Self-driving cars: Cameras (images), radar (signals from objects), LiDAR (3D laser scanning)
+  - Social media content moderation: AI can analyze text, images, audio, and videos to identify appropriate content.
+  - Virtual assistant: Image search, text prompts, voice commands (audio) and Google camera search with live translation.
+  - Medical diagnosis: AI can analyze medical images (X-rays, MRIs) and patient history (text) for more accurate diagnosis.
+- By combining different types of information, multimodal AI gets a richer understanding of the world.
+- AI can perform tasks that would be difficult for traditional AI / unimodal AI models.
 
 ### **Natural Language Programming (NLP)**
 
