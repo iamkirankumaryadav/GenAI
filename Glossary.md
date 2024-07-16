@@ -188,12 +188,13 @@
 - Overfitting: With too many parameters, it can become overly focused on the training data and struggle to perform well on unseen data.
 
 ### **Positional Encoding**  
-- A technique used in ML models, particularly transformers, to address the challenge of understanding the order of elements within a sequence.
+- A technique used in ML models, particularly transformers, to address the order of elements within a sequence.
 - Unlike RNNs, which process information sequentially, transformers handle all elements in a sequence simultaneously.
 
 **The Problem: Missing Order Information**
 
-- Imagine you have a sentence like "The quick brown fox jumps over the lazy dog." A transformer model sees all the words at once, like looking at a jumbled mess of letters.
+- Imagine you have a sentence like "The quick brown fox jumps over the lazy dog."
+- A transformer model sees all the words at once, like looking at a jumbled mess of letters.
 - Without understanding the order, it can't grasp the relationships between words or the overall meaning of the sentence. 
 
 **The Solution: Adding Positional Information**
