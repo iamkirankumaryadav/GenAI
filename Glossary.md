@@ -187,6 +187,33 @@
 - Computational Demands: Running such models also requires significant computational resources.
 - Overfitting: With too many parameters, it can become overly focused on the training data and struggle to perform well on unseen data.
 
+### **Positional Encoding**  
+- A technique used in ML models, particularly transformers, to address the challenge of understanding the order of elements within a sequence.
+- Unlike RNNs, which process information sequentially, transformers handle all elements in a sequence simultaneously.
+
+**The Problem: Missing Order Information**
+
+- Imagine you have a sentence like "The quick brown fox jumps over the lazy dog." A transformer model sees all the words at once, like looking at a jumbled mess of letters.
+- Without understanding the order, it can't grasp the relationships between words or the overall meaning of the sentence. 
+
+**The Solution: Adding Positional Information**
+
+- Positional encoding assigns a unique code to each element (word) in the sequence.
+- This code doesn't just contain random numbers, it captures the element's position in a way the model can understand.
+- Think of it like seat numbers on an aeroplane. Each word gets a unique "seat number" that tells the model its position relative to other words.
+
+**Creating the Codes: Sine and Cosine Functions**
+
+- The specific code for each position is often calculated using sine and cosine functions.
+- These functions create a wave-like pattern that repeats over the sequence length.
+- The advantage of using sine and cosine functions is that they can represent a wide range of positions effectively.
+
+**Benefits of Positional Encoding**
+
+- **Improved Understanding of Order:** The model can learn how the order of elements affects the overall meaning.
+- **Better Performance in Sequence Tasks:** Positional encoding has significantly improved the performance of transformers in tasks like machine translation, text summarization, and question answering.
+- **Flexibility:** The core concept of adding positional information remains crucial for transformers to function effectively with sequences.
+
 ### **Prompt**
 
 - A prompt is the input given to an AI model to initiate or guide its generation process.
