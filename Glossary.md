@@ -81,11 +81,14 @@
 
 ### **Embeddings**
 - Embeddings are a powerful tool for representing text data in a way that machines can understand and manipulate.
-- Raw text data is difficult for machines to process directly.
-- Embeddings transform the text into a numerical representation. Condense text into a series of numbers that capture meanings.
+- Raw text data is difficult for machines to process directly. In an embedding, each word is a point in a vast space.
+- Embeddings transform the text into a numerical representation. Condense text into a series of numbers/codes that capture meanings.
 - They are carefully crafted to capture the semantic meaning of the text. Words with similar meanings will have similar embeddings.
-- Allowing the model to understand the relationships between words and concepts.
-- Embeddings represent text in a lower-dimensional space compared to the original data.
+- Allowing the model to understand the relationships, patterns, and contexts between the words.
+- Embeddings represent text in a lower-dimensional embedding space compared to the original data.
+- Each word is assigned a unique code, like a secret combination to find its location in the embedding space.
+- This code isn't just random alphanumeric characters, it captures the meaning of the words.
+- Words with similar meanings end up closer together in the space, the embeddings know they're related somehow.
 - This makes it more efficient for AI models to process and analyze large amounts of text data.
 - Embeddings help in search and retrieval, searching for information within a vast collection of documents.
 - Embeddings can find documents with similar meaning to your query, even if they don't use the same words.
@@ -93,6 +96,26 @@
 - Embeddings help to understand the intent behind a user's question and respond in a relevant and informative way.
 - By converting text to a more manageable format, embeddings allow GenAI models to work faster and analyze larger datasets.
 - Lower-dimensional embeddings require less storage space compared to raw text data, hence fast processing and less memory usage.
+- Example: Find synonyms, and recommend similar products. Embeddings can be used for images too.
+
+### **Encoder-Decoder**
+- Encoder-decoders are like translators that can handle more than just words.
+- **The Encoder:** Understanding the language, hears individual words, grasps the overall meaning, important ideas, and relationship between things. It gathers clues and pieces them together to form a condensed summary that captures the essence of the message.
+- **The Decoder:** It receives the summarized message from the encoder (the context vector). The decoder uses its understanding of human language to craft a message that makes sense to us. It considers the flow and order of words to create a natural-sounding explanation in our language.
+
+Understanding the concept:
+1. **Feeding the Encoder:** The encoder gets the message as input. This could be a sentence or an image they showed you.
+2. **Making Sense of the Message:** The encoder analyzes the input piece by piece. It might use advanced techniques like recurrent neural networks (RNNs) to understand the sequence and how elements relate to each other.
+3. **Encoding the Message:** As it processes the message, the encoder builds a context vector. This vector is like a cheat sheet with the key points and overall meaning extracted from the message.
+4. **The Decoder:** Receives the context vector, like a summary briefing.
+5. **Decoding into Human Terms:** Based on the context vector and its knowledge of the human language, the decoder starts generating our response. It might translate words, describe what it sees in an image, or even create a story based on the message.
+6. **Building the Output:** The decoder might predict one word at a time, using the context vector and previous outputs to refine its understanding and create a coherent response.
+
+**A Range of Applications**
+1. **Machine Translation:** Breaking down language barriers by translating between human languages.
+2. **Text Summarization:** Condensing lengthy articles or documents into key points.
+3. **Image Captioning:** Describing the content of an image in words.
+4. **Text Generation:** Creating different creative text formats like poems, code, scripts, or musical pieces based on a given idea.
 
 ### **Few Shot Learning**
 - A concept where the model is designed to learn and make accurate predictions or decisions based on a very limited amount of training data.
@@ -193,11 +216,53 @@
 - Response Generation: The LLM, now armed with both your original prompt and the retrieved information, generates its final response.
 - Benefits: Factual consistency, improved and relevant response, domain adaptibility.
 
+### **Self Attention**
+
+- A technique used in machine learning, especially in tasks like understanding language (NLP) and analyzing images.
+- It focuses on important parts of a sentence or image, but instead of a human controlling it, the model itself decides what to pay attention.
+  1. **Splitting the Input:** Self-attention first breaks the sentence down into individual words.
+  2. **Creating Queries, Keys, and Values:** Then, it creates three special codes to decide the importance of each word. 
+    * **Query:** This is like a question the model asks about each word. It considers what kind of information it's looking for.
+    * **Key:** This acts like an answer. It holds the key information about the word itself.
+    * **Value:** This carries the actual content of the word. 
+  3. **Matching and Weighting:** The model compares the "query" of each word to the "keys" of all the other words. This helps it find how relevant each word is to the question it's asking (the query). Based on this match, it assigns a weight to each word.
+  4. **Focusing on the Important:** Finally, the model takes the original words (values) and multiplies them by their weights. Words with higher weights (more relevant) are given more importance. This creates a new version of the sentence where the focus is on the most important parts for understanding the meaning.
+- Imagine you're a detective searching a room for clues. In self-attention, the query, key, and value act like your tools to find what's important.
+- **Query (What are you looking for?):** It's a specific question you have about a piece of evidence (the word). 
+    * Example: You find a footprint (the word "footprint"). Your query might be "Whose shoe made this?" (looking for a connection).
+- **Key (What information does it hold?):** This is the label on a box of evidence. It tells you the basic details about the evidence itself.
+    * Example: The key for "footprint" might be "size 10", "muddy", or "left foot".
+- **Value (The evidence itself):** This is the actual piece of evidence you're examining.
+    * Example: The value is simply the word "footprint" itself.
+
+1. You examine the footprint (the word).
+2. You ask yourself a question (the query): "Whose shoe made this?" (relevant to the case).
+3. You check the details of the footprint (the key): size, mud, left foot.  This might help answer your question. 
+4. Based on how well the details match your question, you decide how important this footprint is (the weight).
+5. A muddy footprint (like a strong key matching your query) is likely more relevant than its size.
+
+- In self-attention, this process happens with words in a sentence.
+- The model considers each word like a piece of evidence, creates a query based on the context, and uses the key and value to see how relevant it is to answer that question.
+- This helps the model focus on the most important parts of the sentence to understand its meaning.    
+      
 ### **Semantic Network** 
 - A knowledge representation method used in AI to model relationships between concepts.
 - It's like a mind map, where concepts are like bubbles and the connections between them show how they're related. 
 - Nodes: These represent the concepts, entities, objects (car, house) or abstract ideas (love, freedom).
 - Links: These connect the nodes and represent the relationships between the concepts by labelling.
+
+### **Softmax Output**
+- In the context of neural networks, is the result of applying the softmax function to the final layer of a network with multiple output classes.
+- This function takes a vector of real numbers as input and transforms them into a probability distribution across those classes.
+- **Multiple Classes:** Softmax is typically used in tasks where the network needs to classify an input into one of several discrete categories.     - Example: An image recognition model might have multiple classes for different objects (cat, dog, car, etc.).
+- **Probabilities:** Unlike the raw output values from the network, which might be simple scores, the softmax output gives you a probability for each class. These probabilities range between 0 and 1, and they all sum up to 1.
+- **Interpreting the Output:** The highest value in the softmax output represents the class that the network is most confident the input belongs to. The closer a value is to 1, the higher the confidence. Conversely, values closer to 0 indicate lower confidence.
+- For instance, imagine a softmax output vector: [0.1, 0.8, 0.1]. Here, the second element (0.8) is the highest, suggesting the network is 80% confident the input belongs to class 2. The other classes have a much lower probability (10% each).
+
+**Why Softmax?**
+- **Clear Interpretation:** Softmax probabilities are easy to understand and interpret. You can see at a glance which class the network favours and how certain it is about its prediction.
+- **Comparison of Classes:** Softmax allows you to compare the likelihood of the input belonging to different classes. This is crucial for tasks where you need to know not just the most likely class, but also the confidence level in that prediction.
+- **In essence, softmax output provides a probabilistic interpretation of the network's final prediction, making it a valuable tool for tasks involving multi-class classification.**
 
 ### **Temperature**
 
