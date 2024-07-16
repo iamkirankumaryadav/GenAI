@@ -103,7 +103,7 @@
 - **The Encoder:** Understanding the language, hears individual words, grasps the overall meaning, important ideas, and relationship between things. It gathers clues and pieces them together to form a condensed summary that captures the essence of the message.
 - **The Decoder:** It receives the summarized message from the encoder (the context vector). The decoder uses its understanding of human language to craft a message that makes sense to us. It considers the flow and order of words to create a natural-sounding explanation in our language.
 
-Understanding the concept:
+**Understanding the concept:**
 1. **Feeding the Encoder:** The encoder gets the message as input. This could be a sentence or an image they showed you.
 2. **Making Sense of the Message:** The encoder analyzes the input piece by piece. It might use advanced techniques like recurrent neural networks (RNNs) to understand the sequence and how elements relate to each other.
 3. **Encoding the Message:** As it processes the message, the encoder builds a context vector. This vector is like a cheat sheet with the key points and overall meaning extracted from the message.
@@ -111,7 +111,7 @@ Understanding the concept:
 5. **Decoding into Human Terms:** Based on the context vector and its knowledge of the human language, the decoder starts generating our response. It might translate words, describe what it sees in an image, or even create a story based on the message.
 6. **Building the Output:** The decoder might predict one word at a time, using the context vector and previous outputs to refine its understanding and create a coherent response.
 
-**A Range of Applications**
+**Applications:**
 1. **Machine Translation:** Breaking down language barriers by translating between human languages.
 2. **Text Summarization:** Condensing lengthy articles or documents into key points.
 3. **Image Captioning:** Describing the content of an image in words.
