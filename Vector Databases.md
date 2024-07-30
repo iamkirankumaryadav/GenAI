@@ -1,4 +1,6 @@
 # **Vector Databases**
+- Stores data as high-dimensional vectors. Used for applications that require fast and accurate similarity search.
+- Image recognition, natural language processing and recommendation systems.
 
 ### **Data as Vectors:**  
 - Instead of rows and columns, vector databases store data points as vectors.
