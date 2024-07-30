@@ -1,6 +1,6 @@
 # **Vector Databases**
-- Stores data as high-dimensional vectors. Used for applications that require fast and accurate similarity search.
-- Image recognition, natural language processing and recommendation systems.
+
+Stores data as high-dimensional vectors. Used for applications that require fast and accurate similarity search.
 
 ### **Data as Vectors:**  
 - Instead of rows and columns, vector databases store data points as vectors.
@@ -24,22 +24,18 @@
 
 ### Embeddings in Vector Databases: Storage, Optimization, and Retrieval
 
-- Vector databases are built to handle the unique needs of embeddings, those high-dimensional vectors capturing the essence of data points.
-
 ### **Storage:**
 
 1. **Compression:**
-- Since vectors can be large, techniques like product quantization reduce storage size by representing the vector with smaller, lower-dimensional codes.
+- Techniques like product quantization reduce storage size by representing the vector with smaller, lower-dimensional codes.
 
 2. **Product quantization (PQ)**
-- A technique for compressing high-dimensional vectors used in vector databases.
 - It significantly reduces the memory footprint of these vectors, allowing you to store and process larger datasets more efficiently.
 
 3. **Inverted Indexing:**
 - Similar to text databases, vectors are associated with metadata (tags, labels) for easier retrieval based on these attributes.
 
 ### **Optimization:**
-
 **Indexing Strategies:** Unlike traditional databases, vector databases use specialized indexing methods like:
 * **Hierarchical Navigable Small World (HNSW):** Creates a graph and index-based network structure for efficient navigation towards similar vectors.
 * **Inverted File (IVF):** Partitions data into smaller clusters, allowing faster searches within relevant groups.
