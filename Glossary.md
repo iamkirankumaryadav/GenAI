@@ -229,10 +229,12 @@
 ### **Retrieval Augmented Generation (RAG)**
 - A technique that combines the strengths of LLMs with external knowledge sources beyond its training data.
 - It enhances the accuracy, relevance, and factuality of AI-generated text by providing the model with up-to-date information.
-- User Input: You ask a question or provide a prompt.
+- User Input: When a user asks a question, query or provide a prompt.
 - LLM Query Generation: The LLM analyzes your input and generates a query to search the information retrieval system.
+- The system retrieves relevant information from an external knowledge base.
+- This could be a database, document repository, or any other structured or unstructured data source.
 - Information Retrieval: The system searches its database and retrieves relevant documents or passages that match the LLM's query.
-- Augmented Input: The retrieved information is then incorporated into the LLM's input.
+- Augmented Input: The retrieved information is then incorporated/combined with the original LLM prompt.
 - Response Generation: The LLM, now armed with both your original prompt and the retrieved information, generates its final response.
 - Benefits: Factual consistency, improved and relevant response, domain adaptibility.
 
