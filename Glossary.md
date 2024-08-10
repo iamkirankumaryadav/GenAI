@@ -46,7 +46,8 @@
 
 ### Autoregressive Model:
 - An autoregressive language model is a type of ML model that uses autoregressive techniques to predict the next word in a sequence of words based on the words that have come before it.
-- The model is trained to maximize the likelihood of the next word given the preceding context. 
+- The model is trained to maximize the likelihood of the next word given the preceding context.
+- Example: XLNET
 
 ### **Bots**
 - Bots are automated programs that perform specific tasks over a network.
