@@ -44,6 +44,10 @@
   - Question answering: Answer "What is the colour of the car?" The model attends to the colours to find the answer.
 - By focusing on relevant parts of the data, the attention mechanism helps models make better predictions/decisions in various tasks.
 
+### Autoregressive Model:
+- An autoregressive language model is a type of ML model that uses autoregressive techniques to predict the next word in a sequence of words based on the words that have come before it.
+- The model is trained to maximize the likelihood of the next word given the preceding context. 
+
 ### **Bots**
 - Bots are automated programs that perform specific tasks over a network.
 - They can be very simple or complex, but their core function is to automate repetitive actions.
