@@ -74,9 +74,9 @@
 - Chatbots are a specific type of bot designed for simple, rule-based system conversation with pre-defined responses.
 - They use NLP and ML to understand and respond to user input/queries in a chat-like interface.
 - Chatbots can be used for customer service, answering FAQs, scheduling appointments, or even providing entertainment.
-- Example: WhatsApp Meta AI, Google Chat Gemini, or Career Website Chatbots.
+- Examples: WhatsApp Meta AI, Google Message Chat Gemini Assistant, Apple Siri, and Career Website Chatbots.
 
-### ChatGPT (Generative Pre-trained Transformers)
+### **ChatGPT (Generative Pre-trained Transformers)**
 - ChatGPT leverages large language models (LLMs) to allow users to have human-like interactions.
 - ChatGPT is trained to hold conversations that flow and adapt based on user input/queries/prompts.
 - It can consider previous prompts (history) and replies to maintain context within a conversation.
@@ -95,10 +95,12 @@
 - Completions are based on the patterns, structures, and information the model has learned during its training phase on vast datasets.
 
 ### **Conversational AI**
-- AI that can simulate conversation with humans using NLP.
+- AI that enables computers to communicate and interact with humans in a natural language, such as text or voice.
+- It's designed to simulate human conversation, making it feel like you're talking to another person.
 - Enables computers to understand and respond to spoken or written language in a way that feels natural and engaging for users.
 - NLP allows computers to interpret the meaning behind human language, including factors like context, slang, and sarcasm.
-- Customer service chatbots: Troubleshoot problems, 24/7 service. Virtual assistance (Alexa, Siri, Google). Companion Chatbots.
+- Customer service chatbots, language learning apps, virtual assistance (Alexa, Siri, Google), social media bots, etc.
+- Benefits: Improved customer experience, increased efficiency, personalized experiences, and accessibility.
 
 ### **Embeddings**
 - Embeddings are a powerful tool for representing text data in a way that machines can understand and manipulate.
@@ -122,7 +124,7 @@
 ### **Encoder-Decoder**
 - Encoder-decoders are like translators that can handle more than just words.
 - **The Encoder:** Understanding the language, hears individual words, grasps the overall meaning, important ideas, and relationship between things. It gathers clues and pieces them together to form a condensed summary that captures the essence of the message.
-- **The Decoder:** It receives the summarized message from the encoder (the context vector). The decoder uses its understanding of human language to craft a message that makes sense to us. It considers the flow and order of words to create a natural-sounding explanation in our language.
+- **The Decoder:** It receives the summarized message from the encoder (the context vector). The decoder uses its understanding of human language to craft a message that makes sense to humans. It considers the flow and order of words to create a natural-sounding explanation in our language.
 
 **Understanding the concept:**
 1. **Feeding the Encoder:** The encoder gets the message as input. This could be a sentence or an image they showed you.
@@ -170,7 +172,7 @@
 - Enabling them to grasp the complexities, relationships, meanings and varied contexts of natural language.
 - LLMs like GPT use particularly transformer architectures, to process and predict text sequences.
 
-### Model:
+### **Model**
 - Models are the algorithms that enable GenAI to process data, learn patterns, and perform tasks such as generating text, and images.
 - Essentially, it is the core framework that embodies an AI’s learned knowledge and capabilities.
 - A model is created through a process called training, where it is fed large amounts of data and learns to recognize patterns, make predictions, or generate outputs based on that data.
@@ -262,7 +264,7 @@
 ### **Self Attention**
 
 - A technique used in machine learning, especially in tasks like understanding language (NLP) and analyzing images.
-- It focuses on important parts of a sentence or image, but instead of a human controlling it, the model itself decides what to pay attention.
+- It focuses on important parts of a sentence or image, but instead of a human controlling it, the model itself decides what to pay attention to.
   1. **Splitting the Input:** Self-attention first breaks the sentence down into individual words.
   2. **Creating Queries, Keys, and Values:** Then, it creates three special codes to decide the importance of each word. 
     * **Query:** This is like a question the model asks about each word. It considers what kind of information it's looking for.
@@ -308,19 +310,16 @@
 - **In essence, softmax output provides a probabilistic interpretation of the network's final prediction, making it a valuable tool for tasks involving multi-class classification.**
 
 ### **Temperature**
-
 - A parameter that controls the randomness or creativity in a model‘s responses.
 - When generating text, a higher temperature value leads to more varied and unpredictable outputs.
 - While a lower temperature results in more conservative and expected responses.
 
 ### **Tokens**
-
 - Tokens are the smallest units of data that an AI model processes.
 - In NLP, tokens typically represent words, punctuations, or even individual characters, depending on the tokenization method used.
 - Tokenization is the process of converting text into smaller, manageable units for the AI to analyze and understand.
 
 ### **Training**
-
 - Training is the process by which an ML model, such as a neural network, learns to perform a specific task.
 - This is achieved by exposing the model to a large set of data, known as the training dataset.
 - Allowing it to iteratively adjust its internal parameters to minimize errors in its output.
@@ -335,8 +334,8 @@
 - Transformers excel at handling sequences, like sentences or code.
 - They can analyze the entire sequence simultaneously, allowing them to capture relationships between words or elements within the sequence.
 - There are two main components to a transformer:
-- Encoder: Takes the input sequence and processes it, capturing the meaning and relationships between the elements. It essentially creates a condensed representation of the sequence.
-- Decoder: Takes the encoded representation from the encoder and uses it to generate an output sequence, like a translated sentence or a continuation (completion) of a story.
+- **Encoder:** Takes the input sequence and processes it, capturing the meaning and relationships between the elements. It essentially creates a condensed representation of the sequence.
+- **Decoder:** Takes the encoded representation from the encoder and uses it to generate an output sequence, like a translated sentence or a continuation (completion) of a story.
 - A key feature of transformers is the concept of attention.
 - The attention mechanism allows the model to focus on the most relevant parts of the input sequence for a specific task.
 - Transformers can capture relationships between words even if they are far apart in a sequence.
@@ -344,14 +343,12 @@
 - Applications: Chatbots, machine translation, text summarization
 
 ### **Tuning**
-
 - The process of adjusting a pre-trained model to better suit a specific task or set of data.
 - This involves modifying the model’s parameters so that it can more effectively process, understand, and generate information relevant to a particular application.
 - Tuning is different from the initial training phase, where a model learns from a large, diverse dataset.
 - Instead, it focuses on refining the model’s capabilities based on a more targeted dataset or specific performance objectives.
 
 ### **Zero-Shot Learning**
-
 - A concept where an AI model learns to perform tasks that it has not explicitly been trained to do.
 - Unlike traditional ML methods that require examples from each class or category they’re expected to handle,
 - Zero-shot learning enables the model to generalize from its training and make inferences about new, unseen categories.
