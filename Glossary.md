@@ -54,14 +54,21 @@
 - By focusing on relevant parts of the data, the attention mechanism helps models make better predictions/decisions in various tasks.
 
 ### Autoregressive Model:
-- An autoregressive language model is a type of ML model that uses autoregressive techniques to predict the next word in a sequence of words based on the words that have come before it.
+- Autoregressive (AR) models are statistical models that predict a variable's future value based on its past values.
+- They assume that the current value is the linear combination of the past values with some random error term.
 - The model is trained to maximize the likelihood of the next word given the preceding context.
-- Example: XLNET
+- Application: Stock Price Prediction, collect data, determine the order, estimate coefficients and make predictions.
 
-### **Bots**
-- Bots are automated programs that perform specific tasks over a network.
+**Limitations of AR Model**
+- **Stationarity:** AR models assume that the time series is stationary (statistical properties do not change over time)
+- **Linearity:** The AR model assume a linear relationship between the current value and past values.
+- **Limited forecasting horizon:** AR models may not be accurate for long-term predictions.
+
+### **Bots (Automated Agents)** 
+- Bots are automated programs that perform specific tasks or interact with users, often simulating human behaviour.
 - They can be very simple or complex, but their core function is to automate repetitive actions.
-- Examples: Weather bots that automatically update forecasts, or social media bots that follow specific accounts.
+- **Applications:** Chatbots, social media bots, search engine bots, recommendation bots, personal assistant bots.
+- **Benefits:** Efficiency, 24/7 availability, consistency, scalability, save time and effort.
 
 ### **Chatbots**
 - Chatbots are a specific type of bot designed for simple, rule-based system conversation with pre-defined responses.
