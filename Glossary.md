@@ -1,34 +1,43 @@
 # **Glossary of GenAI**
 
 ### **Agents (AI Assistant)**
-- GenAI agents are intelligent software programs that can act on your behalf.
-- GenAI agents are designed to understand your instructions and complete tasks using their knowledge and abilities.
-- GenAI agents can make decisions and learn from past interactions to improve their performance.
+- AI systems that can interact with their environment, learn from experience and perform tasks autonomously.
+- GenAI agents are designed to understand the instructions and complete tasks using their knowledge and abilities.
+- **Autonomy:** Agents can act independently, making decisions and taking actions without constant human intervention.
+- **Adaptability:** They can learn from their experiences and adjust their behaviour accordingly.
+- **Interaction:** Agents can interact with their environment, including other agents and humans.
+- They are designed to mimic human-like behaviour and can be used for a variety of purposes.
 - GenAI can access various resources, databases and APIs to gather information and complete tasks.
 - Example: GenAI agents can plan a trip, find hotels, and flights, research activities, and make reservations.
-- GenAI agents can be a powerful tool for boosting productivity and streamlining workflows.
+- GenAI agents can be a powerful tool for boosting productivity by automating tasks and streamlining workflows.
+
+**Types of agents**
+1. **Rule-based agents:** Follow a set of predefined rules to make decisions.
+2. **Reactive agents:** Respond directly to the environment without any consideration.
+3. **Goal-based agents:** Have specific goals and plan their actions accordingly.
+4. **Learning agents:** Can learn from experience and improve their performance over time.
 
 ### **Annotation**
 - The process of labelling or tagging data. Used to train and fine-tune AI models.
 - Text: POS Tagging, Sentiment Analysis | Image: Caption or labels | Audio: Transcripts or Lyrics.
-- Annotation helps data to learn and understand the pattern, context, and meaning of data it is meant to interpret or generate.
+- Annotation helps models to learn and understand the pattern, context, and meaning of data.
 
 ### **Artificial General Intelligence (AGI)**
 - A hypothetical type of AI that would be much more powerful than we have today.
-- Human-like intelligence: Learning, complex problem-solving, reasoning, and adapting to new situations.
-- Going beyond training: It would be able to learn and perform new tasks without explicit programming.
-- Self-teaching/learning: It would be able to learn and improve on its own without needing constant human intervention.
-- Scientific breakthroughs: It could accelerate scientific discovery by analyzing vast amounts of data.
-- Boosting human productivity: It can handle any intellectual task, freeing you up to focus on creative endeavours.
+- **Human-like intelligence:** Learning, complex problem-solving, reasoning, and adapting to new situations.
+- **Going beyond training:** It would be able to learn and perform new tasks without explicit programming.
+- **Self-teaching/learning:** It would be able to learn and improve on its own without needing constant human intervention.
+- **Scientific breakthroughs:** It could accelerate scientific discovery by analyzing vast amounts of data.
+- **Boosting human productivity:** It can handle any intellectual task, freeing you up to focus on creative endeavours.
 
 ### **Artificial Super Intelligence (ASI)**
 - ASI refers to a stage of AI that surpasses human intelligence across all fields.
 - Including creativity, general wisdom, and problem-solving capabilities.
-- Unmatched cognitive abilities: Process information at lightning speed. Analyze complex patterns instantaneously.
-- Self-improvement: It could learn and potentially even rewrite/update/enhance its code to become even more intelligent.
-- Current state of ASI: Purely hypothetical, actively debated, ethical considerations.
-- Potential of ASI: Solving global problems (Climate, disease, poverty), scientific breakthroughs, boosting human potential.
-- Risks of ASI: Existential threat, unforeseen consequences (actions we can't predict), job displacement.
+- **Unmatched cognitive abilities:** Process information at lightning speed. Analyze complex patterns instantaneously.
+- **Self-improvement:** It could learn and potentially even rewrite/update/enhance its code to become even more intelligent.
+- **Current state of ASI:** Purely hypothetical, actively debated, ethical considerations.
+- **Potential of ASI:** Solving global problems (Climate, disease, poverty), scientific breakthroughs, boosting human potential.
+- **Risks of ASI:** Existential threat, unforeseen consequences (actions we can't predict), job displacement.
 
 ### Attention Mechanism:
 - The attention mechanism is a powerful technique used in various AI models to focus on important parts of the input data.
