@@ -289,6 +289,15 @@
 - In self-attention, this process happens with words in a sentence.
 - The model considers each word like a piece of evidence, creates a query based on the context, and uses the key and value to see how relevant it is to answer that question.
 - This helps the model focus on the most important parts of the sentence to understand its meaning.    
+
+### Semantic Model
+- A way to represent information in a structured way that captures the meaning or semantics of the data.
+- It's like creating a map of concepts and how they relate to each other.
+- This model is often used in fields like AI, NLP, and knowledge management.
+- Think of it like a family tree:
+  -  **Concepts (Entities):** The people in the family (e.g., 'person', 'parent', 'child')
+  -  **Relationships:** The connections between people (e.g., 'is a parent of', 'is a child of')
+  -  **Attributes:** The characteristics of each person (e.g., 'name', 'age', 'occupation')
       
 ### **Semantic Network** 
 - A knowledge representation method used in AI to model relationships between concepts.
