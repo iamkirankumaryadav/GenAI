@@ -48,7 +48,7 @@ A GAN consists of two main neural networks: a generator and a discriminator.
 - A versatile and powerful base that can be customized for specific tasks across different data types (Text, Image, Video, Audio, etc)
 - They can be trained on various data types (text, code, images) and then adapted for specific tasks, like writing different creative text formats or generating images based on a description.
 
-**How foundation model work?**
+**How does the foundation model work?**
 
 1. **Training on Diverse Data:**
 - Foundation models are trained on a massive and varied dataset. This data can include text documents, code, and even images.
@@ -64,10 +64,10 @@ A GAN consists of two main neural networks: a generator and a discriminator.
 
 1. **Creative Text Generation:** 
 - Imagine a company wanting an AI assistant that can write different creative text formats like poems, scripts, or marketing copy.
-- They can take a foundation model trained on massive amounts of text data and then fine-tune it for these specific tasks.
+- They can take a foundation model trained on massive amounts of text data and fine-tune it for these specific tasks.
 
 2. **Image Enhancement:**
-- A photo editing app that can enhance or restore old photos could leverage a foundation model.
+- A photo editing app that enhances or restores old photos could leverage a foundation model.
 - The developers could use a foundation model trained on various images and then adapt it to recognize specific features in photos (like faces or landscapes) and improve their quality.
 
 3. **Advanced Machine Translation:** 
