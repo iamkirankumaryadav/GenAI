@@ -39,7 +39,7 @@
 - **Potential of ASI:** Solving global problems (Climate, disease, poverty), scientific breakthroughs, boosting human potential.
 - **Risks of ASI:** Existential threat, unforeseen consequences (actions we can't predict), job displacement.
 
-### **Self Attention Mechanism:**
+### **Attention Mechanism | Self Attention:**
 - The attention mechanism is a powerful technique used in various AI models to focus on important parts of the input data.
 - How the attention mechanism works:
   1. Scanning the input data: See a variety of words in a sentence, or object in an image.
