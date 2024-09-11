@@ -39,7 +39,7 @@
 - **Potential of ASI:** Solving global problems (Climate, disease, poverty), scientific breakthroughs, boosting human potential.
 - **Risks of ASI:** Existential threat, unforeseen consequences (actions we can't predict), job displacement.
 
-### Attention Mechanism:
+### **Self Attention Mechanism:**
 - The attention mechanism is a powerful technique used in various AI models to focus on important parts of the input data.
 - How the attention mechanism works:
   1. Scanning the input data: See a variety of words in a sentence, or object in an image.
@@ -260,34 +260,6 @@
 - Augmented Input: The retrieved information is then incorporated/combined with the original LLM prompt.
 - Response Generation: The LLM, now armed with both your original prompt and the retrieved information, generates its final response.
 - Benefits: Factual consistency, improved and relevant response, domain adaptibility.
-
-### **Self Attention**
-- A technique used in machine learning, especially in tasks like understanding language (NLP) and analyzing images.
-- It focuses on important parts of a sentence or image, but instead of a human controlling it, the model itself decides what to pay attention to.
-  1. **Splitting the Input:** Self-attention first breaks the sentence down into individual words.
-  2. **Creating Queries, Keys, and Values:** Then, it creates three special codes to decide the importance of each word. 
-    * **Query:** This is like a question the model asks about each word. It considers what kind of information it's looking for.
-    * **Key:** This acts like an answer. It holds the key information about the word itself.
-    * **Value:** This carries the actual content of the word. 
-  3. **Matching and Weighting:** The model compares the "query" of each word to the "keys" of all the other words. This helps it find how relevant each word is to the question it's asking (the query). Based on this match, it assigns a weight to each word.
-  4. **Focusing on the Important:** Finally, the model takes the original words (values) and multiplies them by their weights. Words with higher weights (more relevant) are given more importance. This creates a new version of the sentence where the focus is on the most important parts for understanding the meaning.
-- Imagine you're a detective searching a room for clues. In self-attention, the query, key, and value act like your tools to find what's important.
-- **Query (What are you looking for?):** It's a specific question you have about a piece of evidence (the word). 
-    * Example: You find a footprint (the word "footprint"). Your query might be "Whose shoe made this?" (looking for a connection).
-- **Key (What information does it hold?):** This is the label on a box of evidence. It tells you the basic details about the evidence itself.
-    * Example: The key for "footprint" might be "size 10", "muddy", or "left foot".
-- **Value (The evidence itself):** This is the actual piece of evidence you're examining.
-    * Example: The value is simply the word "footprint" itself.
-
-1. You examine the footprint (the word).
-2. You ask yourself a question (the query): "Whose shoe made this?" (relevant to the case).
-3. You check the details of the footprint (the key): size, mud, left foot. This might help answer your question. 
-4. Based on how well the details match your question, you decide how important this footprint is (the weight).
-5. A muddy footprint (like a strong key matching your query) is likely more relevant than its size.
-
-- In self-attention, this process happens with words in a sentence.
-- The model considers each word like a piece of evidence, creates a query based on the context, and uses the key and value to see how relevant it is to answer that question.
-- This helps the model focus on the most important parts of the sentence to understand its meaning.    
 
 ### Semantic Model
 - A way to represent information in a structured way that captures the meaning or semantics of the data.
