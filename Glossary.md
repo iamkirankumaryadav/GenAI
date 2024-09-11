@@ -244,7 +244,7 @@
 - Optimizing the relevance, accuracy, and quality of the generated content.
 
 ### **Reinforcement Learning**
-- A type of learning algorithm where an agent learns to make decisions by performing actions in an environment to achieve a certain goal.
+- A type of ML where an agent learns to make decisions by performing actions in an environment to achieve a certain goal.
 - The learning process is guided by feedback in the form of rewards or punishments.
 - Positive reinforcement for desired actions and negative reinforcement for undesired actions.
 - The agent learns to maximize its cumulative reward through trial and error, gradually improving its strategy over time.
