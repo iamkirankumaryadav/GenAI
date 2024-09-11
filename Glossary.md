@@ -255,14 +255,13 @@
 - User Input: When a user asks a question, query or provide a prompt.
 - LLM Query Generation: The LLM analyzes your input and generates a query to search the information retrieval system.
 - The system retrieves relevant information from an external knowledge base.
-- This could be a database, document repository, or any other structured or unstructured data source.
+- This could be a database, document repository, access to cloud storage (Drive) or any other structured or unstructured data source.
 - Information Retrieval: The system searches its database and retrieves relevant documents or passages that match the LLM's query.
 - Augmented Input: The retrieved information is then incorporated/combined with the original LLM prompt.
 - Response Generation: The LLM, now armed with both your original prompt and the retrieved information, generates its final response.
 - Benefits: Factual consistency, improved and relevant response, domain adaptibility.
 
 ### **Self Attention**
-
 - A technique used in machine learning, especially in tasks like understanding language (NLP) and analyzing images.
 - It focuses on important parts of a sentence or image, but instead of a human controlling it, the model itself decides what to pay attention to.
   1. **Splitting the Input:** Self-attention first breaks the sentence down into individual words.
@@ -282,7 +281,7 @@
 
 1. You examine the footprint (the word).
 2. You ask yourself a question (the query): "Whose shoe made this?" (relevant to the case).
-3. You check the details of the footprint (the key): size, mud, left foot.  This might help answer your question. 
+3. You check the details of the footprint (the key): size, mud, left foot. This might help answer your question. 
 4. Based on how well the details match your question, you decide how important this footprint is (the weight).
 5. A muddy footprint (like a strong key matching your query) is likely more relevant than its size.
 
