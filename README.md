@@ -19,21 +19,19 @@ Generative Artificial Intelligence
 - LLMs are trained on massive amounts of text data and can generate new text formats, translate languages, write different creative content, and answer your questions in an informative way.
 
 ### **Generative Adversarial Networks (GANs)**  
-- Two neural networks in a competition. Constantly pushing each other to improve.
+- A deep learning architecture, that trains two neural networks to complete against each other to improve and generate more authentic new data.
 - One network (generator) creates new data, like images of faces, while the other (discriminator) tries to identify if it's real or generated.
-- This competition helps the generator create increasingly realistic outputs.
+- This competition with the discriminator helps the generator create increasingly realistic and authentic outputs.
 
 **How do GANs work?**
 
-A GAN consists of two main neural networks: a generator and a discriminator.
-
 1. **Generator:** The generator's job is to create new data (like images of faces) that resemble the real data from the training dataset.
-2. **Discriminator:** The discriminator's job is to analyze the data (both real and generated) and determine if it's real or fake.
+2. **Discriminator:** The discriminator's job is to analyze the data (both real and generated) and determine if it's realistic or fake.
 
 **The Competitive Loop:**
 
 1. **The Generator Makes a Guess:** 
-- The generator starts by creating new data samples.
+- The generator starts creating new data samples based on its given training dataset.
 
 2. **The Discriminator Judges:** 
 - The discriminator receives both real data (from the training dataset) and the generated data from the generator.
@@ -41,6 +39,9 @@ A GAN consists of two main neural networks: a generator and a discriminator.
 
 3. **Learning from Each Other:** 
 - Based on the discriminator's feedback, the generator refines its approach to create more realistic data in the next round.
+
+**Usecases of GANs**
+- Generate realistic images through text based prompts or by modifying existing images.
 
 ### **Foundation Models**
 - The versatile tools of generative AI. A toolbox with many different AI techniques.
