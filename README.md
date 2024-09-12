@@ -42,6 +42,9 @@ Generative Artificial Intelligence
 
 **Usecases of GANs**
 - Generate realistic images through text based prompts or by modifying existing images.
+- GAN can also edit images: Converting low resolution images to a high resolution image. Turning a black & white image to color.
+- GAN can be used for data augmentation to create synthetic data with all the attributes of real world data.
+- In ML, data augmentation artificially increases the training set by creating modified copies of a dataset using existing data.
 
 ### **Foundation Models**
 - The versatile tools of generative AI. A toolbox with many different AI techniques.
