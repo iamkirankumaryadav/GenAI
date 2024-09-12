@@ -44,7 +44,12 @@ Generative Artificial Intelligence
 - Generate realistic images through text based prompts or by modifying existing images.
 - GAN can also edit images: Converting low resolution images to a high resolution image. Turning a black & white image to color.
 - GAN can be used for data augmentation to create synthetic data with all the attributes of real world data.
+- GANs can also create realistic faces, characters, and animals for animation and video.
 - In ML, data augmentation artificially increases the training set by creating modified copies of a dataset using existing data.
+- We can use GenAI model to accurately guess and complete some missing information in a dataset.
+- GANs can also generate the remaining or incomplete portion/surface of an image.
+- GANs can generate 3D models from 2D photo or scanned images.
+- In healthcare it combines X-rays and other body scans to create realistic images of organs for surgucal planning and simulation.
 
 ### **Foundation Models**
 - The versatile tools of generative AI. A toolbox with many different AI techniques.
