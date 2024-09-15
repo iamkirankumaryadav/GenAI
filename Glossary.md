@@ -202,8 +202,16 @@ Consider a simple knowledge graph about a person named Alice:
 
 ### **Popular Knowledge Graph Platforms:**
 1. **Google Knowledge Graph:** Used by Google Search to provide rich information about entities.
+
+![Google Knowledge Graph](https://github.com/iamkirankumaryadav/GenAI/blob/df97c2d0a5a9513a57532cbde983bdfd0044a52e/Image/Google%20Knowledge%20Graph.png)
+
 2. **Neo4j:** A graph database platform for building and managing knowledge graphs.
+
+![Neo4j](https://github.com/iamkirankumaryadav/GenAI/blob/df97c2d0a5a9513a57532cbde983bdfd0044a52e/Image/Neo4j.png)
+
 3. **RDF Graph (Resource Description Framework):** A standard for representing knowledge graphs on the web.
+
+![RDF Graph](https://github.com/iamkirankumaryadav/GenAI/blob/df97c2d0a5a9513a57532cbde983bdfd0044a52e/Image/RDF%20Graph.png)
 
 ## **Large Language Models (LLMs)** 
 - AI systems specifically designed to understand, generate, and interact with human language on a large scale.
