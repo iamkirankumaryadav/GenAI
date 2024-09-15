@@ -189,10 +189,42 @@
 - By combining different types of information, multimodal AI gets a richer understanding of the world.
 - AI can perform tasks that would be difficult for traditional AI / unimodal AI models.
 
+### **Multi-Agent Framework:**
+
+- A computational model that involves multiple autonomous agents interacting with each other and their environment to achieve a common goal.
+- These agents are intelligent entities that can make decisions, act independently, and communicate with each other.
+
+### Key Components of a Multi-Agent Framework
+1. **Agents:** 
+- The fundamental units of the framework. Agents have their own goals and actions.
+- They can be software programs, hardware devices, or even human beings.
+ 
+2. **Environment:** 
+- The environment is the context in which the agents operate.
+- It provides information to the agents and can be affected by their actions.
+
+3. **Interaction:** 
+- Agents interact with each other and the environment through communication and actions. 
+
+4. **Architecture:** 
+- The structure and organization of the agents and their interactions. It can be centralized, decentralized, or hybrid.
+
+### Benefits of Multi-Agent Frameworks
+* **Flexibility:** Multi-agent frameworks are highly flexible and can adapt to changing environments.
+* **Scalability:** They can handle large-scale problems by distributing tasks among multiple agents.
+* **Decentralization:** Agents can operate independently, reducing the risk of a single point of failure.
+* **Emergent Behavior:** Complex behaviours can emerge from the interactions of simple agents.
+
+### Applications of Multi-Agent Frameworks
+* **Robotics:** Autonomous robots can coordinate their actions to accomplish tasks.
+* **Artificial Intelligence:** Multi-agent systems can be used to model complex social and economic systems.
+* **Game Theory:** Agents can be used to study strategic interactions and decision-making.
+* **Distributed Systems:** Multi-agent frameworks can be used to design and manage distributed systems.
+
 ### **Natural Language Programming (NLP)**
 - NLP is a field at the intersection of computer science, AI, and linguistics.
 - Focused on enabling computers to understand, interpret, and generate human language in a way that is both meaningful and useful.
-- The development of algorithms that can analyze, comprehend, and respond to text or voice data in a manner similar to how humans do.
+- The development of algorithms that can analyze, comprehend, and respond to text or voice data like how humans do.
 
 ### **Parameters**
 - During training, a GenAI model is exposed to vast amounts of data.
