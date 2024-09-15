@@ -1,6 +1,6 @@
 # **Glossary of GenAI**
 
-### **Agents (AI Assistant)**
+## **Agents (AI Assistant)**
 - AI systems that can interact with their environment, learn from experience and perform tasks autonomously.
 - GenAI agents are designed to understand the instructions and complete tasks using their knowledge and abilities.
 - **Autonomy:** Agents can act independently, making decisions and taking actions without constant human intervention.
@@ -17,12 +17,12 @@
 3. **Goal-based agents:** Have specific goals and plan their actions accordingly.
 4. **Learning agents:** Can learn from experience and improve their performance over time.
 
-### **Annotation**
+## **Annotation**
 - The process of labelling or tagging data. Used to train and fine-tune AI models.
 - Text: POS Tagging, Sentiment Analysis | Image: Caption or labels | Audio: Transcripts or Lyrics.
 - Annotation helps models to learn and understand the pattern, context, and meaning of data.
 
-### **Artificial General Intelligence (AGI)**
+## **Artificial General Intelligence (AGI)**
 - A hypothetical type of AI that would be much more powerful than we have today.
 - **Human-like intelligence:** Learning, complex problem-solving, reasoning, and adapting to new situations.
 - **Going beyond training:** It would be able to learn and perform new tasks without explicit programming.
@@ -30,7 +30,7 @@
 - **Scientific breakthroughs:** It could accelerate scientific discovery by analyzing vast amounts of data.
 - **Boosting human productivity:** It can handle any intellectual task, freeing you up to focus on creative endeavours.
 
-### **Artificial Super Intelligence (ASI)**
+## **Artificial Super Intelligence (ASI)**
 - ASI refers to a stage of AI that surpasses human intelligence across all fields.
 - Including creativity, general wisdom, and problem-solving capabilities.
 - **Unmatched cognitive abilities:** Process information at lightning speed. Analyze complex patterns instantaneously.
@@ -39,7 +39,7 @@
 - **Potential of ASI:** Solving global problems (Climate, disease, poverty), scientific breakthroughs, boosting human potential.
 - **Risks of ASI:** Existential threat, unforeseen consequences (actions we can't predict), job displacement.
 
-### **Attention Mechanism | Self Attention:**
+## **Attention Mechanism | Self Attention:**
 - The attention mechanism is a powerful technique used in various AI models to focus on important parts of the input data.
 - How the attention mechanism works:
   1. Scanning the input data: See a variety of words in a sentence, or object in an image.
@@ -53,7 +53,7 @@
   - Question answering: Answer "What is the colour of the car?" The model attends to the colours to find the answer.
 - By focusing on relevant parts of the data, the attention mechanism helps models make better predictions/decisions in various tasks.
 
-### Autoregressive Model:
+## Autoregressive Model:
 - Autoregressive (AR) models are statistical models that predict a variable's future value based on its past values.
 - They assume that the current value is the linear combination of the past values with some random error term.
 - The model is trained to maximize the likelihood of the next word given the preceding context.
@@ -61,22 +61,22 @@
 
 **Limitations of AR Model**
 - **Stationarity:** AR models assume that the time series is stationary (statistical properties do not change over time)
-- **Linearity:** The AR model assume a linear relationship between the current value and past values.
+- **Linearity:** The AR model assumes a linear relationship between the current value and past values.
 - **Limited forecasting horizon:** AR models may not be accurate for long-term predictions.
 
-### **Bots (Automated Agents)** 
+## **Bots (Automated Agents)** 
 - Bots are automated programs that perform specific tasks or interact with users, often simulating human behaviour.
 - They can be very simple or complex, but their core function is to automate repetitive actions.
 - **Applications:** Chatbots, social media bots, search engine bots, recommendation bots, personal assistant bots.
 - **Benefits:** Efficiency, 24/7 availability, consistency, scalability, save time and effort.
 
-### **Chatbots**
+## **Chatbots**
 - Chatbots are a specific type of bot designed for simple, rule-based system conversation with pre-defined responses.
 - They use NLP and ML to understand and respond to user input/queries in a chat-like interface.
 - Chatbots can be used for customer service, answering FAQs, scheduling appointments, or even providing entertainment.
 - Examples: WhatsApp Meta AI, Google Message Chat Gemini Assistant, Apple Siri, and Career Website Chatbots.
 
-### **ChatGPT (Generative Pre-trained Transformers)**
+## **ChatGPT (Generative Pre-trained Transformers)**
 - ChatGPT leverages large language models (LLMs) to allow users to have human-like interactions.
 - ChatGPT is trained to hold conversations that flow and adapt based on user input/queries/prompts.
 - It can consider previous prompts (history) and replies to maintain context within a conversation.
@@ -88,13 +88,13 @@
 - The pre-trained aspect refers to the initial extensive training these models undergo on large text corpora.
 - Allowing them to understand and predict language patterns, context, and aspects of world knowledge.
 
-### **Completions**
+## **Completions**
 
 - Completions are the output produced by AI in response to a given input or prompt.
 - When a user inputs a prompt, the AI model processes it and generates text that logically follows or completes the given input.
 - Completions are based on the patterns, structures, and information the model has learned during its training phase on vast datasets.
 
-### **Conversational AI**
+## **Conversational AI**
 - AI that enables computers to communicate and interact with humans in a natural language, such as text or voice.
 - It's designed to simulate human conversation, making it feel like you're talking to another person.
 - Enables computers to understand and respond to spoken or written language in a way that feels natural and engaging for users.
@@ -102,7 +102,7 @@
 - Customer service chatbots, language learning apps, virtual assistance (Alexa, Siri, Google), social media bots, etc.
 - Benefits: Improved customer experience, increased efficiency, personalized experiences, and accessibility.
 
-### **Embeddings**
+## **Embeddings**
 - Embeddings are a powerful tool for representing text data in a way that machines can understand and manipulate.
 - Raw text data is difficult for machines to process directly. In an embedding, each word is a point in a vast space.
 - Embeddings transform the text into a numerical representation. Condense text into a series of numbers/codes that capture meanings.
@@ -121,7 +121,7 @@
 - Lower-dimensional embeddings require less storage space compared to raw text data, hence fast processing and less memory usage.
 - Example: Find synonyms, and recommend similar products. Embeddings can be used for images too.
 
-### **Encoder-Decoder**
+## **Encoder-Decoder**
 - Encoder-decoders are like translators that can handle more than just words.
 - **The Encoder:** Understanding the language, hears individual words, grasps the overall meaning, important ideas, and relationship between things. It gathers clues and pieces them together to form a condensed summary that captures the essence of the message.
 - **The Decoder:** It receives the summarized message from the encoder (the context vector). The decoder uses its understanding of human language to craft a message that makes sense to humans. It considers the flow and order of words to create a natural-sounding explanation in our language.
@@ -140,45 +140,45 @@
 3. **Image Captioning:** Describing the content of an image in words.
 4. **Text Generation:** Creating different creative text formats like poems, code, scripts, or musical pieces based on a given idea.
 
-### **Few Shot Learning**
+## **Few Shot Learning**
 - A concept where the model is designed to learn and make accurate predictions or decisions based on a very limited amount of training data.
 - Traditional machine learning models typically require large datasets to learn effectively.
 - Few-shot learning techniques enable AI models to generalize from a small number of examples, often just a handful or even a single instance.
 - This approach is especially valuable in situations where collecting large datasets is impractical or impossible, such as specialized academic fields or rare languages.
 
-### **Fine Tuning**
+## **Fine Tuning**
 - The process of taking a pre-trained AI model and further training it on a specific, often smaller, dataset to adapt it to particular tasks.
 - Relevant in scenarios where a GenAI model, trained on varied datasets, needs to be specialized or optimized for specific applications.
 
-### **Generative AI** 
+## **Generative AI** 
 - AI systems that can generate new content—such as texts, images, audio, and video—in response to prompts by a user.
 - After being trained on an earlier set of data.
 - **Text:** ChatGPT, Gemini, Meta AI | **Image:** DALL E, Ideogram, Midjourney | **Video:** Sora
 
-### **Hallucinations** 
+## **Hallucinations** 
 - Incorrect or misleading results that AI models generate. These errors can be caused by a variety of factors
 - Factors: Insufficient training data, incorrect assumptions made by the model, or biases in the data used to train the model.
 - The concept of AI hallucinations underscores the need for critical evaluation and verification of AI-generated information.
 
-### **Inference** 
+## **Inference** 
 - The process where a trained AI model applies its learned knowledge to new, unseen data to make predictions, decisions, or generate content.
 - It is essentially the phase where the AI model, after being trained on a large dataset, is now being used in real-world applications.
 - During inference, the model utilises its learned patterns to perform the specific tasks it was designed for.
 - Example: A language model that has been trained on a vast corpus of text can perform inference by generating a new essay, answering a student’s query, or summarizing a research article.
 
-### **Large Language Models (LLMs)** 
+## **Large Language Models (LLMs)** 
 - AI systems specifically designed to understand, generate, and interact with human language on a large scale.
-- These models have been trained on enormous datasets since long time comprising a wide range of text sources.
+- These models have been trained on enormous datasets for a long time comprising a wide range of text sources.
 - Enabling them to grasp the complexities, relationships, meanings and varied contexts of natural language.
 - LLMs like GPT use particularly transformer architectures, to process and predict text sequences.
 
-### **Model**
+## **Model**
 - Models are the algorithms that enable GenAI to process data, learn patterns, and perform tasks such as generating text, and images.
 - Essentially, it is the core framework that embodies an AI’s learned knowledge and capabilities.
 - A model is created through a process called training, where it is fed large amounts of data and learns to recognize patterns, make predictions, or generate outputs based on that data.
 - Each model has its specific architecture and parameters, which define its abilities and limitations.
 
-### Multimodal AI:
+## Multimodal AI:
 - Multimodal AI is like having different senses working together to understand the world, just like humans do.
 - An AI that can process information from multiple sources, of multiple data types (Text, image, video, and audio)
 - Real-world examples:
@@ -189,7 +189,7 @@
 - By combining different types of information, multimodal AI gets a richer understanding of the world.
 - AI can perform tasks that would be difficult for traditional AI / unimodal AI models.
 
-### **Multi-Agent Framework:**
+## **Multi-Agent Framework:**
 
 - A computational model that involves multiple autonomous agents interacting with each other and their environment to achieve a common goal.
 - These agents are intelligent entities that can make decisions, act independently, and communicate with each other.
@@ -221,7 +221,7 @@
 * **Game Theory:** Agents can be used to study strategic interactions and decision-making.
 * **Distributed Systems:** Multi-agent frameworks can be used to design and manage distributed systems.
 
-### **Natural Language Programming (NLP)**
+## **Natural Language Programming (NLP)**
 - NLP is a field at the intersection of computer science, AI, and linguistics.
 - Focused on enabling computers to understand, interpret, and generate human language in a way that is both meaningful and useful.
 - The development of algorithms that can analyze, comprehend, and respond to text or voice data like how humans do.
@@ -240,7 +240,7 @@
 - Computational Demands: Running such models also requires significant computational resources.
 - Overfitting: With too many parameters, it can become overly focused on the training data and struggle to perform well on unseen data.
 
-### **Positional Encoding**  
+## **Positional Encoding**  
 - A technique used in ML models, particularly transformers, to address the order of elements within a sequence.
 - Unlike RNNs, which process information sequentially, transformers handle all elements in a sequence simultaneously.
 
@@ -264,24 +264,24 @@
 - **Better Performance in Sequence Tasks:** Positional encoding has significantly improved the performance of transformers in tasks like machine translation, text summarization, and question answering.
 - **Flexibility:** The core concept of adding positional information remains crucial for transformers to function effectively with sequences.
 
-### **Prompt**
+## **Prompt**
 - A prompt is the input given to an AI model to initiate or guide its generation process.
 - This input acts as a set of instructions that the AI uses to produce its output.
 - Prompts are crucial in defining the nature, scope, and specificity of the output generated by the AI system.
 - For instance, in a text-based GenAI model like GPT, a prompt could be a sentence or a question that the model then completes or answers in a coherent and contextually appropriate manner.
 
-### **Prompt Engineering**
+## **Prompt Engineering**
 - Prompt engineering refers to the crafting of input prompts to effectively guide AI models in producing specific and desired outputs.
 - This practice involves formulating and structuring prompts to leverage the AI’s understanding and capabilities.
 - Optimizing the relevance, accuracy, and quality of the generated content.
 
-### **Reinforcement Learning**
+## **Reinforcement Learning**
 - A type of ML where an agent learns to make decisions by performing actions in an environment to achieve a certain goal.
 - The learning process is guided by feedback in the form of rewards or punishments.
 - Positive reinforcement for desired actions and negative reinforcement for undesired actions.
 - The agent learns to maximize its cumulative reward through trial and error, gradually improving its strategy over time.
 
-### **Retrieval Augmented Generation (RAG)**
+## **Retrieval Augmented Generation (RAG)**
 - A technique that combines the strengths of LLMs with external knowledge sources beyond its training data.
 - It enhances the accuracy, relevance, and factuality of AI-generated text by providing the model with up-to-date information.
 - User Input: When a user asks a question, query or provide a prompt.
@@ -293,7 +293,7 @@
 - Response Generation: The LLM, now armed with both your original prompt and the retrieved information, generates its final response.
 - Benefits: Factual consistency, improved and relevant response, domain adaptibility.
 
-### Semantic Model
+## Semantic Model
 - A way to represent information in a structured way that captures the meaning or semantics of the data.
 - It's like creating a map of concepts and how they relate to each other.
 - This model is often used in fields like AI, NLP, and knowledge management.
@@ -302,13 +302,13 @@
   -  **Relationships:** The connections between people (e.g., 'is a parent of', 'is a child of')
   -  **Attributes:** The characteristics of each person (e.g., 'name', 'age', 'occupation')
       
-### **Semantic Network** 
+## **Semantic Network** 
 - A knowledge representation method used in AI to model relationships between concepts.
 - It's like a mind map, where concepts are like bubbles and the connections between them show how they're related. 
 - Nodes: These represent the concepts, entities, objects (car, house) or abstract ideas (love, freedom).
 - Links: These connect the nodes and represent the relationships between the concepts by labelling.
 
-### **Softmax Output**
+## **Softmax Output**
 - In the context of neural networks, is the result of applying the softmax function to the final layer of a network with multiple output classes.
 - This function takes a vector of real numbers as input and transforms them into a probability distribution across those classes.
 - **Multiple Classes:** Softmax is typically used in tasks where the network needs to classify an input into one of several discrete categories.     - Example: An image recognition model might have multiple classes for different objects (cat, dog, car, etc.).
@@ -321,17 +321,17 @@
 - **Comparison of Classes:** Softmax allows you to compare the likelihood of the input belonging to different classes. This is crucial for tasks where you need to know not just the most likely class, but also the confidence level in that prediction.
 - **In essence, softmax output provides a probabilistic interpretation of the network's final prediction, making it a valuable tool for tasks involving multi-class classification.**
 
-### **Temperature**
+## **Temperature**
 - A parameter that controls the randomness or creativity in a model‘s responses.
 - When generating text, a higher temperature value leads to more varied and unpredictable outputs.
 - While a lower temperature results in more conservative and expected responses.
 
-### **Tokens**
+## **Tokens**
 - Tokens are the smallest units of data that an AI model processes.
 - In NLP, tokens typically represent words, punctuations, or even individual characters, depending on the tokenization method used.
 - Tokenization is the process of converting text into smaller, manageable units for the AI to analyze and understand.
 
-### **Training**
+## **Training**
 - Training is the process by which an ML model, such as a neural network, learns to perform a specific task.
 - This is achieved by exposing the model to a large set of data, known as the training dataset.
 - Allowing it to iteratively adjust its internal parameters to minimize errors in its output.
@@ -340,7 +340,7 @@
 - This process is repeated numerous times, with the model gradually improving its accuracy and ability to perform the task.
 - For example, a language model is trained on vast amounts of text so that it learns to understand and generate human-like language.
 
-### **Transformers** 
+## **Transformers** 
 - A specific type of neural network architecture that has revolutionized how machines process and generate text.
 - Unlike traditional neural networks that process information one piece at a time.
 - Transformers excel at handling sequences, like sentences or code.
@@ -354,13 +354,13 @@
 - The ability to process the entire sequence simultaneously allows for parallel processing, making transformers faster and more efficient than older architectures.
 - Applications: Chatbots, machine translation, text summarization
 
-### **Tuning**
+## **Tuning**
 - The process of adjusting a pre-trained model to better suit a specific task or set of data.
 - This involves modifying the model’s parameters so that it can more effectively process, understand, and generate information relevant to a particular application.
 - Tuning is different from the initial training phase, where a model learns from a large, diverse dataset.
 - Instead, it focuses on refining the model’s capabilities based on a more targeted dataset or specific performance objectives.
 
-### **Zero-Shot Learning**
+## **Zero-Shot Learning**
 - A concept where an AI model learns to perform tasks that it has not explicitly been trained to do.
 - Unlike traditional ML methods that require examples from each class or category they’re expected to handle,
 - Zero-shot learning enables the model to generalize from its training and make inferences about new, unseen categories.
