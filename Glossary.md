@@ -166,6 +166,45 @@
 - During inference, the model utilises its learned patterns to perform the specific tasks it was designed for.
 - Example: A language model that has been trained on a vast corpus of text can perform inference by generating a new essay, answering a student’s query, or summarizing a research article.
 
+## **Knowledge Graph:**
+
+- A semantic network that represents knowledge as a graph of interconnected entities and their relationships.
+- It's essentially a database where information is structured as a series of nodes (entities) connected by edges (relationships). 
+
+### **Key Components:**
+
+1. **Nodes:** These represent entities, such as people, places, things, or concepts.
+2. **Edges:** These represent the relationships between entities. For instance, "isMarriedTo," "worksFor," or "locatedIn."
+3. **Properties:** These are attributes associated with nodes, such as "name," "age," or "color."
+
+### **Example:**
+
+Consider a simple knowledge graph about a person named Alice:
+
+1. **Node:** Alice
+2. **Properties:** name (Alice), age (30), city (New York)
+3. **Edge:** livesIn (connects Alice to New York)
+
+### **Applications of Knowledge Graphs:**
+
+1. **Search Engines:** Improved search results by understanding the context and relationships between entities.
+2. **Recommendation Systems:** Personalized recommendations based on user preferences and item relationships.
+3. **Question Answering:** Answering complex questions by leveraging the interconnected knowledge.
+4. **Natural Language Processing:** Understanding the meaning of text by recognizing entities and their relationships.
+5. **Semantic Web:** Building a web of interconnected data that machines can understand and process.
+
+### **Benefits of Knowledge Graphs:**
+
+* **Enhanced Understanding:** Provide a structured way to represent and understand complex information.
+* **Improved Search:** They enable more accurate and relevant search results.
+* **Better Decision Making:** Support data-driven decision-making by providing insights into relationships and trends.
+* **Automation:** Tasks such as information extraction and natural language processing can be automated using knowledge graphs.
+
+### **Popular Knowledge Graph Platforms:**
+1. **Google Knowledge Graph:** Used by Google Search to provide rich information about entities.
+2. **Neo4j:** A graph database platform for building and managing knowledge graphs.
+3. **RDF Graph (Resource Description Framework):** A standard for representing knowledge graphs on the web.
+
 ## **Large Language Models (LLMs)** 
 - AI systems specifically designed to understand, generate, and interact with human language on a large scale.
 - These models have been trained on enormous datasets for a long time comprising a wide range of text sources.
