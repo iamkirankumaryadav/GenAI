@@ -4,10 +4,10 @@ Generative Artificial Intelligence
 ### **Generative AI**
 - An AI technology that can create new content in text, image, music, and video forms.
 - Businesses are exceptionally excited by the possibilities of specialized generative AI models,
-- because they can be trained in an organization's corporate data and they can collaborate with research and advanced analytics teams to boost productivity.
+- They can be trained in an organization's corporate data and they can collaborate with research and advanced analytics teams to boost productivity.
 - The best thing is their ability to write human-like text and extract complex ideas synthesized from the vast volume of information on which they are trained.
 - The powerhouse behind creating entirely new data, like text formats, images, music, or even code.
-- Innovations in GenAI are accelerating at a breathtakingly fast speed as businesses all over the world experiment with it.
+- Innovations in GenAI are accelerating at a breathtakingly fast speed as businesses worldwide experiment with it.
 - GenAI has launched a new era in technology, that promises both greater productivity and new ways to solve business problems.
 
 ### **Machine Learning**
@@ -19,7 +19,7 @@ Generative Artificial Intelligence
 - LLMs are trained on massive amounts of text data and can generate new text formats, translate languages, write different creative content, and answer your questions in an informative way.
 
 ### **Generative Adversarial Networks (GANs)**  
-- A deep learning architecture, that trains two neural networks to complete against each other to improve and generate more authentic new data.
+- A deep learning architecture, that trains two neural networks to compete against each other to improve and generate more authentic new data.
 - One network (generator) creates new data, like images of faces, while the other (discriminator) tries to identify if it's real or generated.
 - This competition with the discriminator helps the generator create increasingly realistic and authentic outputs.
 
@@ -31,7 +31,7 @@ Generative Artificial Intelligence
 **The Competitive Loop:**
 
 1. **The Generator Makes a Guess:** 
-- The generator starts creating new data samples based on its given training dataset.
+- The generator starts creating new data samples based on the training dataset it has been given.
 
 2. **The Discriminator Judges:** 
 - The discriminator receives both real data (from the training dataset) and the generated data from the generator.
@@ -40,16 +40,16 @@ Generative Artificial Intelligence
 3. **Learning from Each Other:** 
 - Based on the discriminator's feedback, the generator refines its approach to create more realistic data in the next round.
 
-**Usecases of GANs**
-- Generate realistic images through text based prompts or by modifying existing images.
-- GAN can also edit images: Converting low resolution images to a high resolution image. Turning a black & white image to color.
-- GAN can be used for data augmentation to create synthetic data with all the attributes of real world data.
+**Use cases of GANs**
+- Generate realistic images through text-based prompts or by modifying existing images.
+- GAN can also edit images: Converting low resolution images to a high resolution image. Turning a black & white image to colour.
+- GAN can be used for data augmentation to create synthetic data with all the attributes of real-world data.
 - GANs can also create realistic faces, characters, and animals for animation and video.
 - In ML, data augmentation artificially increases the training set by creating modified copies of a dataset using existing data.
-- We can use GenAI model to accurately guess and complete some missing information in a dataset.
+- We can use the GenAI model to accurately guess and complete some missing information in a dataset.
 - GANs can also generate the remaining or incomplete portion/surface of an image.
 - GANs can generate 3D models from 2D photo or scanned images.
-- In healthcare it combines X-rays and other body scans to create realistic images of organs for surgucal planning and simulation.
+- In healthcare, it combines X-rays and other body scans to create realistic images of organs for surgical planning and simulation.
 
 ### **Foundation Models**
 - The versatile tools of generative AI. A toolbox with many different AI techniques.
