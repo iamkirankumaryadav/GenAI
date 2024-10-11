@@ -180,7 +180,7 @@
 - Relevant in scenarios where a GenAI model, trained on varied datasets, needs to be specialized or optimized for specific applications.
 
 ## **Generative AI** 
-- AI systems that can generate new content—such as texts, images, audio, and video—in response to prompts by a user.
+- AI systems that can generate new content such as texts, images, audio, and video—in response to prompts by a user.
 - After being trained on an earlier set of data.
 - **Text:** ChatGPT, Gemini, Meta AI | **Image:** DALL E, Ideogram, Midjourney | **Video:** Sora
 
