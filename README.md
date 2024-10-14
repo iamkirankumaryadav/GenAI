@@ -18,13 +18,13 @@
 
 ### Generative Adversarial Networks (GANs)
 - A DL architecture, that trains two neural networks to compete against each other to improve and generate more authentic new data.
-- One network (generator) creates new data, like images of faces, while the other (discriminator) tries to identify if it's real or generated.
+- The generator network creates new data, while the discriminator network tries to identify if it's real or generated.
 - This competition with the discriminator helps the generator create increasingly realistic and authentic outputs.
 
 **How do GANs work?**
 
-1. **Generator:** The generator's job is to create new data that resemble the real data from the training dataset.
-2. **Discriminator:** The discriminator's job is to analyze the data (real vs generated) and determine if it's realistic or fake.
+1. **Generator Network:** Create new data that resemble the real data from the training dataset.
+2. **Discriminator Network:** Analyze the data (real vs generated) and determine if it's realistic or fake.
 
 **The Competitive Loop:**
 
