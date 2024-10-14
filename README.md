@@ -42,24 +42,26 @@
 - Generate realistic images through text-based prompts or by modifying existing images.
 - GAN can convert low-resolution images to high-resolution images. Turning a black & white image to colour.
 - GAN can be used for data augmentation to create synthetic data with all the attributes of real-world data.
-- GANs can also create realistic faces, characters, and animals for animation and video.
+- GANs can create realistic faces, characters, and animals for animation and video.
 - In ML, data augmentation artificially increases the training set by creating modified copies of a dataset using existing data.
-- We can use the GenAI model to accurately guess and complete some missing information in a dataset.
+- We can use the GenAI model to guess and complete some missing information in a dataset accurately.
 - GANs can also generate the remaining or incomplete portion/surface of an image.
 - GANs can generate 3D models from 2D photo or scanned images.
 - In healthcare, it combines X-rays and other body scans to create realistic images of organs for surgical planning and simulation.
 
 ### Variational Autoencoders (VAEs) 
-- A type of generative model that uses probabilistic methods to learn a latent representation of data.
-- This latent representation is a lower-dimensional space that captures the underlying structure of the data.
+- A generative model that uses DL to learn a probabilistic representation of data and generates new data samples.
+- VAEs learn a latent space that is not deterministic but rather a probability distribution.
+- VAEs generate new data samples that are similar to the training data but not identical.
 
 **How VAEs Work?**
-1. **Encoding:** 
-- The VAE takes an input data point and encodes it into a latent representation.
-- This latent representation is a point in a lower-dimensional space.
+1. **Encoder Network:** 
+- The encoder takes an input and maps/encodes it to a latent space, represented by a probability distribution.
+- The distribution is parameterized by the mean and variance.
+- Latent Space: A lower dimensional representation of input data (Probability distribution of real data)
 
-2. **Decoding:** 
-- The VAE then decodes the latent representation back into a reconstructed data point.
+2. **Decoder Network:** 
+- The decoder takes the sampled latent code and maps it back to the original input space.
 
 3. **Loss Function:** 
 - The VAE is trained to minimize a loss function that consists of two terms:
@@ -67,9 +69,12 @@
 - **Regularization Term:** Encourages the latent representation to be a continuous probability distribution.
 - This regularization term ensures that the VAE can generate new data points that are similar to the training data.
 
+### Applications:
+- Image generation, data denoising, anomaly detection, etc.
+
 ### Foundation Models
 - The building blocks for generative AI applications.
-- A versatile and powerful base that can be customized for specific tasks across different data types (Text, Image, Video, Audio, etc)
+- A versatile and powerful base that can be customized for specific tasks across different data types (text, image, video, audio, etc)
 - They can be trained on various data types (text, code, images) and then adapted for specific tasks, like writing different creative text formats or generating images based on a description.
 
 **How does the foundation model work?**
