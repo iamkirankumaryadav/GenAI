@@ -1,19 +1,19 @@
 # GenAI (Generative Artificial Intelligence)
 
-### **Generative AI**
-- An AI technology that can create new content in text, image, music, and video forms.
-- They can be trained in an organization's corporate data and collaborate with research and advanced analytics teams to boost productivity.
-- Write human-like text and extract complex ideas synthesized from the vast volume of information on which they are trained.
-- The powerhouse behind creating entirely new data, like text formats, images, music, or code.
+### Generative AI
+- An AI technology that can create new content in text, image, music, video, and audio forms.
+- They can be trained in an organization's corporate data and collaborate with advanced analytics teams to boost productivity.
+- Write human-like text and extract complex ideas synthesized from the vast information they are trained on.
+- The powerhouse behind creating entirely new data, like text, images, music, video, audio or code.
 - Innovations in GenAI are accelerating at a breathtakingly fast speed as businesses worldwide experiment with it.
 - GenAI has launched a new era in technology, that promises greater productivity and new ways to solve business problems.
 
-### **Machine Learning**
+### Machine Learning
 - The training method for generative AI models.
 - We feed the model a massive amount of existing data, and the model learns the patterns and relationships within that data.
 
-### **Large Language Models (LLMs)** 
-- Text-based generative AI. LLMs are trained on massive amounts of text data.
+### Large Language Models (LLMs)
+- Text-based GenAI. LLMs are trained on massive amounts of text data.
 - Generates new text formats, translates languages, writes different creative content, and answers your questions.
 
 ### Generative Adversarial Networks (GANs)
@@ -22,12 +22,10 @@
 - This competition with the discriminator helps the generator create increasingly realistic and authentic outputs.
 
 **How do GANs work?**
-
-1. **Generator Network:** Create new data that resemble the real data from the training dataset.
+1. **Generator Network:** Create new data that resembles the training dataset's real data.
 2. **Discriminator Network:** Analyze the data (real vs generated) and determine if it's realistic or fake.
 
 **The Competitive Loop:**
-
 1. **The Generator Creates:** 
 - The generator starts creating new data samples based on the training dataset it has been given.
 
@@ -39,7 +37,7 @@
 - Based on the discriminator's feedback, the generator refines its approach to create more realistic data in the next round.
 
 **Use cases of GANs**
-- Generate realistic images through text-based prompts or by modifying existing images.
+- Generate realistic images through text-based prompts or by modifying existing photos.
 - GAN can convert low-resolution images to high-resolution images. Turning a black & white image to colour.
 - GAN can be used for data augmentation to create synthetic data with all the attributes of real-world data.
 - GANs can create realistic faces, characters, and animals for animation and video.
