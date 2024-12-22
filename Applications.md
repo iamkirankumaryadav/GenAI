@@ -67,3 +67,12 @@ Generative AI is rapidly evolving and finding its way into many aspects of our l
 
 * **Copilot integrates seamlessly**  across Microsoft 365 applications, allowing you to leverage its features consistently.
 * **Maintaining User Control** is a priority. Users should be able to choose when and how they want Copilot's assistance,  ensuring it complements human creativity and judgment.
+
+### How GenAI is different that other types of AI
+- Reactive machines are used in self-driving cars.
+- Limited memory AI forecasts the weather.
+- Theory of mind powers virtual customer assistance.
+- Narrow AI generates customized product suggestions for E Commece sites.
+- Supervised learning identifies objects from things like images and video.
+- Unsupervised learning can detect fraudulent bank transactions.
+- Reinforcement learning can teach a machine how to play a game. 
