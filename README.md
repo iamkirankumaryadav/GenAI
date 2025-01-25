@@ -13,7 +13,9 @@
 - We feed the model a massive amount of existing data, and the model learns the patterns and relationships within that data.
 
 ### Large Language Models (LLMs)
-- Text-based GenAI. LLMs are trained on massive amounts of text data.
+- Text-based GenAI. LLMs are trained on massive amounts of internet data.
+- Example: ChatGPT learned patterns between tokens (chunks of text), words, and sentences.
+- Enabling the LLM to generate contextually relevant responses to human input/prompt.
 - Generates new text formats, translates languages, writes different creative content, and answers your questions.
 
 ### Generative Adversarial Networks (GANs)
