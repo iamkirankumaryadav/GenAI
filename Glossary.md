@@ -1,5 +1,7 @@
 # **Glossary of GenAI**
 
+Most important: Token, context length, temperature, modality, generation length, embedding, etc.
+
 ## **Agents (AI Assistant)**
 - AI systems that can interact with their environment, learn from experience and perform tasks autonomously.
 - GenAI agents are designed to understand the instructions and complete tasks using their knowledge and abilities.
