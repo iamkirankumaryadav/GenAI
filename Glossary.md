@@ -91,10 +91,13 @@ Most important: Token, context length, temperature, modality, generation length,
 - Allowing them to understand and predict language patterns, context, and aspects of world knowledge.
 
 ## **Completions**
-
 - Completions are the output produced by AI in response to a given input or prompt.
 - When a user inputs a prompt, the AI model processes it and generates text that logically follows or completes the given input.
 - Completions are based on the patterns, structures, and information the model has learned during its training phase on vast datasets.
+
+## **Context Length**
+- Defines how much of the previous text the model considers when generating next content.
+- A larger context allows the model to produce more relevant output.
 
 ## **Conversational AI**
 - AI that enables computers to communicate and interact with humans in a natural language, such as text or voice.
@@ -185,6 +188,10 @@ Most important: Token, context length, temperature, modality, generation length,
 - AI systems that can generate new content such as texts, images, audio, and video—in response to prompts by a user.
 - After being trained on an earlier set of data.
 - **Text:** ChatGPT, Gemini, Meta AI | **Image:** DALL E, Ideogram, Midjourney | **Video:** Sora
+
+## Generation Lenght
+- The length of the output the model generates.
+- It can be adjusted based on the task, whether you're looking for a brief summary or detailed explanation.
 
 ## **Hallucinations** 
 - Incorrect or misleading results that AI models generate. These errors can be caused by a variety of factors
@@ -293,6 +300,10 @@ Consider a simple knowledge graph about a person named Alice:
 - Essentially, it is the core framework that embodies an AI’s learned knowledge and capabilities.
 - A model is created through a process called training, where it is fed large amounts of data and learns to recognize patterns, make predictions, or generate outputs based on that data.
 - Each model has its specific architecture and parameters, which define its abilities and limitations.
+
+## Modality
+- Modality refers to form of input and output a model can handle.
+- ChatGPT can handle text, audio, and image as an input.
 
 ## Multimodal AI:
 - Multimodal AI is like having different senses working together to understand the world, just like humans do.
@@ -473,8 +484,9 @@ Consider a simple knowledge graph about a person named Alice:
 - **In essence, softmax output provides a probabilistic interpretation of the network's final prediction, making it a valuable tool for tasks involving multi-class classification.**
 
 ## **Temperature**
-- A parameter that controls the randomness or creativity in a model‘s responses.
+- A parameter that controls the randomness of the model‘s outputs/responses.
 - When generating text, a higher temperature value leads to more varied and unpredictable outputs.
+- Higher temperature introduces more creativity and variability.
 - While a lower temperature results in more conservative and expected responses.
 
 ## **Tokens**
