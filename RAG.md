@@ -1,6 +1,6 @@
 # Retrieval Augmented Generation (RAG)
 - An AI framework that combines the strengths of traditional information retrieval systems (such as search and databases) with the capabilities of generative large language models (LLMs).
-- By combining your data and world knowledge with LLM language skills, generated outputs are more accurate, up-to-date, and relevant to your specific needs.
+- By combining your data and world knowledge with LLM, generated outputs are more accurate, up-to-date, and relevant to your specific needs.
 
 ### How does Retrieval-Augmented Generation work?
 
@@ -19,7 +19,7 @@
 - Retrieval is usually handled by a semantic search engine that uses embeddings stored in vector databases.  
 - Sophisticated ranking and query rewriting features, ensuring that the results are relevant to the query and will answer the user’s question.
 
-### Why use RAG
+### Why use RAG?
 - LLMs are limited to their pre-trained data, this leads to outdated responses.
 - RAG overcomes this by providing up-to-date information to LLMs.
 - LLMs are powerful tools for generating creative and engaging text, but they can sometimes struggle with factual accuracy.
