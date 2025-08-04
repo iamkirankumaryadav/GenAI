@@ -9,11 +9,11 @@
 - GenAI has launched a new era in technology, that promises greater productivity and new ways to solve business problems.
 
 ### Machine Learning
-- The training method for generative AI models.
-- We feed the model a massive amount of existing data, and the model learns the patterns and relationships within that data.
+- The foundation for training generative AI models.
+- Model learns the patterns and relationships by analyzing large dataset.
 
 ### Large Language Models (LLMs)
-- Text-based GenAI. LLMs are trained on massive amounts of internet data.
+- Text-focused GenAI. LLMs are trained on massive amounts of internet data.
 - Example: ChatGPT learned patterns between tokens (chunks of text), words, and sentences.
 - Enabling the LLM to generate contextually relevant responses to human input/prompt.
 - Generates new text formats, translates languages, writes different creative content, and answers your questions.
