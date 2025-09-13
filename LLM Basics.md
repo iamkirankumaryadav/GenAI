@@ -1,5 +1,3 @@
-# LLM Basics
-
 ## What is an LLM?
 - A LLM stands for a Large Language Model trained on huge text data.
 - A type of AI model designed to understand and generate human-like text based on the input it receives.
