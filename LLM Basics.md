@@ -1,5 +1,5 @@
 ## What is an LLM?
-- A LLM stands for a Large Language Model trained on huge text data.
+- A Large Language Model trained on huge text data.
 - A type of AI model designed to understand and generate human-like text based on the input it receives.
 
 ### Key Features of an LLM
@@ -36,8 +36,8 @@ Chatbots, creative writing, code generation, summarization | Sentiment analysis,
 
 ## What are Embeddings? 
 
-- **Embeddings** are numerical representations of data (like words, sentences, or even images) in a continuous vector space.
-- They capture the **semantic meaning** of the input so that similar items are close together in this space.
+- Embeddings are numerical representations of data (like words, sentences, or even images) in a continuous vector space.
+- They capture the semantic meaning of the input so that similar items are close together in this space.
 
 ### Why Do We Need Embeddings?
 - Computers can’t understand raw text, they need numbers.
@@ -83,6 +83,6 @@ Chatbots, creative writing, code generation, summarization | Sentiment analysis,
 
 ### Example with GPT
 Text: `"ChatGPT is amazing!"`  
-Tokens: `["Chat", "G", "PT", " is", " amazing", "!"]`  
+Tokens: `["Chat", "GPT", " is", " amazing", "!"]`  
 Each token → mapped to an integer ID.
 
