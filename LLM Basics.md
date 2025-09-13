@@ -23,9 +23,7 @@
 - Translate languages
 - Generate code
 - Assist in creative writing
-
---- 
-
+ 
 ## How is GPT different from BERT?
 
 GPT (Generative Pre-trained Transformer) | BERT (Bidirectional Encoder Representations from Transformers)
@@ -35,8 +33,6 @@ Processes text left-to-right (unidirectional) | Reads text bidirectionally (both
 Trained to predict the next word (autoregressive) | Trained with **Masked Language Modeling (MLM)** and **Next Sentence Prediction (NSP)**.
 Good for text generation | Good for understanding context and classification tasks
 Chatbots, creative writing, code generation, summarization | Sentiment analysis, question answering, named entity recognition (NER).
-
----
 
 ## What are Embeddings? 
 
@@ -60,8 +56,6 @@ Chatbots, creative writing, code generation, summarization | Sentiment analysis,
 - Recommendation systems
 - Chatbots
 - Clustering and classification
-
----
 
 ## What is Tokenization?
 - **Tokenization** is the process of breaking down text into smaller units called **tokens**,
