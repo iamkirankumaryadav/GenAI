@@ -1,6 +1,8 @@
 # 🤖 Agents
 
-- An agent is a system that can autonomously perform tasks using AI especially LLMs to generate content, make decisions, and interact with other systems or users.
+- An agent is a system that can autonomously perform tasks using AI
+- Especially LLMs to generate content, make decisions, call tools (API) and interact with other systems or users.
+- In enterprise settings, agents are often used to automate workflows like document summarization, or task routing.
 
 ### What makes an Agent in Generative AI?
 1. **Perception:** It understands input (text, images, etc.).
