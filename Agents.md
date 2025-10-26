@@ -35,4 +35,5 @@ Sometimes, multiple agents work together:
 - One agent writes code
 - Another tests it
 - Another documents it
+
 They collaborate like a team of specialists.
