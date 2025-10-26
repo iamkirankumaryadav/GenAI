@@ -95,9 +95,14 @@ Most important: Token, context length, temperature, modality, generation length,
 - When a user inputs a prompt, the AI model processes it and generates text that logically follows or completes the given input.
 - Completions are based on the patterns, structures, and information the model has learned during its training phase on vast datasets.
 
-## **Context Length**
+## Context Length
 - Defines how much of the previous text the model considers when generating next content.
 - A larger context allows the model to produce more relevant output.
+
+## Context Window
+- The context window is the maximum number of tokens that an AI model can process and consider simultaneously when generating a response.
+- It is essentially the “memory” capacity of the model during an interaction or task.
+- Models with larger context windows can handle larger attachments/prompts/inputs and sustain “memory” of a conversation for longer.
 
 ## **Conversational AI**
 - AI that enables computers to communicate and interact with humans in a natural language, such as text or voice.
@@ -383,8 +388,15 @@ Consider a simple knowledge graph about a person named Alice:
 * **Game Theory:** Agents can be used to study strategic interactions and decision-making.
 * **Distributed Systems:** Multi-agent frameworks can be used to design and manage distributed systems.
 
+## Neural Network 
+- Modeled after the human brain, a system that actively learns by identifying and analyzing statistical patterns in data.
+- This system features multiple layers of artificial neurons, which are computational models inspired by the neurons in our brain.
+- These artificial neurons process information and transmit signals to other connected neurons.
+- While the first layer processes the input data, the final layer delivers the results.
+
 ## **Natural Language Programming (NLP)**
 - NLP is a field at the intersection of computer science, AI, and linguistics.
+- A subfield of AI and linguistics that focuses on enabling machines to understand, interpret, and generate human language.
 - Focused on enabling computers to understand, interpret, and generate human language in a way that is both meaningful and useful.
 - The development of algorithms that can analyze, comprehend, and respond to text or voice data like how humans do.
 
@@ -489,13 +501,13 @@ Consider a simple knowledge graph about a person named Alice:
 - Higher temperature introduces more creativity and variability.
 - While a lower temperature results in more conservative and expected responses.
 
-## **Tokens**
-- Tokens are the smallest units of data that an AI model processes.
-- In NLP, tokens typically represent words, punctuations, or even individual characters, depending on the tokenization method used.
+## Token
+- Token is a smallest unit of text that an AI model understands and processes. Token ~ 4 Characters in english.
+- In NLP, tokens may include whold word, part of word, punctuations, individual characters, and special character.
 - Tokenization is the process of converting text into smaller, manageable units for the AI to analyze and understand.
 
-## **Training**
-- Training is the process by which an ML model, such as a neural network, learns to perform a specific task.
+## Training
+- Training is the process by which an ML model, learns to perform a specific task by understanding patterns in data.
 - This is achieved by exposing the model to a large set of data, known as the training dataset.
 - Allowing it to iteratively adjust its internal parameters to minimize errors in its output.
 - During training, the model makes predictions or generates outputs based on its current state.
@@ -503,19 +515,19 @@ Consider a simple knowledge graph about a person named Alice:
 - This process is repeated numerous times, with the model gradually improving its accuracy and ability to perform the task.
 - For example, a language model is trained on vast amounts of text so that it learns to understand and generate human-like language.
 
-## **Transformers** 
-- A specific type of neural network architecture that has revolutionized how machines process and generate text.
-- Unlike traditional neural networks that process information one piece at a time.
-- Transformers excel at handling sequences, like sentences or code.
+## Transformers 
+- A specific type of **Deep Learning** or **Neural Network** architecture that has revolutionized how machines understand, process and generate text.
+- Unlike traditional neural networks that process information one piece at a time (word by word).
+- Transformers excel at handling sequences, like sentences or code at once.
 - They can analyze the entire sequence simultaneously, allowing them to capture relationships between words or elements within the sequence.
-- There are two main components to a transformer:
-- **Encoder:** Takes the input sequence and processes it, capturing the meaning and relationships between the elements. It essentially creates a condensed representation of the sequence.
-- **Decoder:** Takes the encoded representation from the encoder and uses it to generate an output sequence, like a translated sentence or a continuation (completion) of a story.
-- A key feature of transformers is the concept of attention.
-- The attention mechanism allows the model to focus on the most relevant parts of the input sequence for a specific task.
+
+### Key Components of Transformer:
+- **Encoder:** Understand the input, captures the meaning and relationships between the elements. Creates a condensed representation of the sequence.
+- **Decoder:** Takes the encoded representation from the encoder and generates an output sequence, like a translated sentence or a continuation (completion) of a story.
+- **Attention Mechanism:** Allows the model to focus on the most relevant parts of the input sequence for a specific task.
 - Transformers can capture relationships between words even if they are far apart in a sequence.
-- The ability to process the entire sequence simultaneously allows for parallel processing, making transformers faster and more efficient than older architectures.
-- Applications: Chatbots, machine translation, text summarization
+- The ability to process the entire sequence simultaneously allows for parallel processing, making transformers faster and efficient than traditional architectures.
+- Applications: Chatbots, machine translation (Google Translate), text summarization
 
 ## **Tuning**
 - The process of adjusting a pre-trained model to better suit a specific task or set of data.
