@@ -23,6 +23,12 @@
 - Translate languages
 - Generate code
 - Assist in creative writing
+
+### GPT (Generative Pre-trained Transformer)
+- A series of LLM developed by OpenAI, based on the Transformer architecture, designed for various natural language processing tasks.
+
+### Hugging Face
+- A popular platform that provides pre-trained language models and tools to use and fine-tune LLM.
  
 ## How is GPT different from BERT?
 
@@ -86,3 +92,21 @@ Text: `"ChatGPT is amazing!"`
 Tokens: `["Chat", "GPT", " is", " amazing", "!"]`  
 Each token → mapped to an integer ID.
 
+### Fine-Tuning
+- The process of further training a pre-trained LLM on specific tasks or datasets to adapt it for domain-specific applications.
+
+### Knowledge Distillation
+- A technique in which a LLM transfers its knowledge to a smaller model to achieve similar performance with reduced computational resources.
+
+### Language Modeling
+- Language modeling is a task in which LLM learn to predict the probability of a word or token given its context within a sequence of text.
+
+### Memory Mechanism
+- Memory mechanisms in LLM enable them to store and retrieve information efficiently, enhancing their ability to handle long-range dependencies.
+
+### Natural Language Understanding (NLU)
+- NLU is a subfield of NLP that focuses on enabling machines to understand human language.
+
+### ULMFiT (Universal Language Model Fine-Tuning)
+- A transfer learning approach that fine-tunes a pre-trained language model for various NLP tasks.
+- Transfer learning is the application of knowledge gained from pre-training LLM to improve performance with limited labeled data.
