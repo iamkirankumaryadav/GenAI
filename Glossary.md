@@ -118,36 +118,30 @@ Stock Price Prediction: Collect historical data, determine the order, estimate c
 
 ## Context Window
 - The maximum number of tokens an AI model can process and consider at once when generating a response.
-- The “memory” capacity of an AI model during an interaction or task.
+- The **memory** capacity of an AI model during an interaction or task.
 - **Larger context windows** can handle larger attachments/prompts and maintain conversation history for longer.
 - **Smaller context windows** limit how much prior information the model can use, which may affect relevance.
 
 ## **Conversational AI**
-- AI that enables computers to communicate and interact with humans in a natural language, such as text or voice.
-- It's designed to simulate human conversation, making it feel like you're talking to another person.
-- Enables computers to understand and respond to spoken or written language in a way that feels natural and engaging for users.
-- NLP allows computers to interpret the meaning behind human language, including factors like context, slang, and sarcasm.
+- AI systems that enable computers to communicate with humans in natural language (text or voice).
+- Designed to simulate human conversation, making interactions feel natural and engaging.
+- Uses Natural Language Processing (NLP) to interpret meaning, context, slang, and even sarcasm.
+- Understands user input and generates appropriate responses.
 - Customer service chatbots, language learning apps, virtual assistance (Alexa, Siri, Google), social media bots, etc.
 - Benefits: Improved customer experience, increased efficiency, personalized experiences, and accessibility.
 
 ## **Embeddings**
-- Embeddings are a powerful tool for representing text data in a way that machines can understand and manipulate.
-- Raw text data is difficult for machines to process directly. In an embedding, each word is a point in a vast space.
-- Embeddings transform the text into a numerical representation. Condense text into a series of numbers/codes that capture meanings.
-- They are carefully crafted to capture the semantic meaning of the text. Words with similar meanings will have similar embeddings.
-- Allowing the model to understand the relationships, patterns, and contexts between the words.
-- Embeddings represent text in a lower-dimensional embedding space compared to the original data.
-- Each word is assigned a unique code, like a secret combination to find its location in the embedding space.
-- This code isn't just random alphanumeric characters, it captures the meaning of the words.
-- Words with similar meanings end up closer together in the space, the embeddings know they're related somehow.
-- This makes it more efficient for AI models to process and analyze large amounts of text data.
+- A technique for representing text data as numerical vectors so machines can easily process and understand it.
+- Raw text is hard for machines to interpret directly. In an embedding, each word is a point in a vast vector space.
+- Embeddings transform text into a lower dimensional numerical representation that captures meaning and context.
+- Each word or token is mapped to a point in an embedding space. Words with similar meanings will have similar embeddings.
+- It isn't just random alphanumeric characters, it captures semantic relationships, patterns, and context between words.
 - Embeddings help in search and retrieval, searching for information within a vast collection of documents.
 - Embeddings can find documents with similar meaning to your query, even if they don't use the same words.
-- Embeddings can identify the most important parts of a text document and generate concise summaries that capture the key points.
+- Embeddings can identify and capture most important parts of a text document and generate concise summaries.
 - Embeddings help to understand the intent behind a user's question and respond in a relevant and informative way.
-- By converting text to a more manageable format, embeddings allow GenAI models to work faster and analyze larger datasets.
 - Lower-dimensional embeddings require less storage space compared to raw text data, hence fast processing and less memory usage.
-- Example: Find synonyms, and recommend similar products. Embeddings can be used for images too.
+- Example: Find synonyms, product recommendations, document retrieval and image similarity search.
 
 ## **Encoder-Decoder**
 - Encoder-decoders are like translators that can handle more than just words.
