@@ -3,46 +3,47 @@
 Most important: Token, context length, temperature, modality, generation length, embedding, etc.
 
 ## **Agents (AI Assistant)**
-- AI systems that can interact with their environment, learn from experience and perform tasks autonomously.
-- GenAI agents are designed to understand the instructions and complete tasks using their knowledge and abilities.
-- **Autonomy:** Agents can act independently, making decisions and taking actions without constant human intervention.
-- **Adaptability:** They can learn from their experiences and adjust their behaviour accordingly.
-- **Interaction:** Agents can interact with their environment, including other agents and humans.
-- They are designed to mimic human-like behaviour and can be used for a variety of purposes.
+- AI agents are systems that can interact with their environment, learn from experience, and perform tasks autonomously.
+- These are designed to understand instructions and complete tasks using their knowledge and capabilities.
+- **Autonomy:** They act independently, making decisions and taking actions without constant human input.
+- **Adaptability:** They learn from experience and adjust their behavior accordingly.
+- **Interaction:** They can interact with their environment, other agents, and humans.
+- They are designed to mimic human-like behaviour for various purposes.
 - GenAI can access various resources, databases and APIs to gather information and complete tasks.
 - Example: GenAI agents can plan a trip, find hotels, and flights, research activities, and make reservations.
-- GenAI agents can be a powerful tool for boosting productivity by automating tasks and streamlining workflows.
+- GenAI agents boost productivity by automating tasks and streamlining workflows.
 
 **Types of agents**
-1. **Rule-based agents:** Follow a set of predefined rules to make decisions.
-2. **Reactive agents:** Respond directly to the environment without any consideration.
-3. **Goal-based agents:** Have specific goals and plan their actions accordingly.
-4. **Learning agents:** Can learn from experience and improve their performance over time.
+1. **Rule-based:** Operate using a set of predefined rules. Decisions are made strictly based on these rules.
+2. **Reactive:** Respond directly to changes in the environment without considering past states or future consequences.
+3. **Goal-based:** Work toward achieving specific goals. Plan actions to reach those goals efficiently.
+4. **Learning:** Improve performance over time by learning from experience. Adapt their behavior based on feedback and outcomes.
 
 ## **Annotation**
-- The process of labelling or tagging data. Used to train and fine-tune AI models.
-- Text: POS Tagging, Sentiment Analysis | Image: Caption or labels | Audio: Transcripts or Lyrics.
-- Annotation helps models to learn and understand the pattern, context, and meaning of data.
+- The process of labelling or tagging data to train and fine-tune AI models.
+- Annotation helps models learn patterns, context, and meaning in data.
+- Text: POS Tagging, Sentiment Analysis | Image: Caption or labels | Audio: Transcripts (speech-to-text) or Lyrics.
 
 ## **Artificial General Intelligence (AGI)**
-- A hypothetical type of AI that would be much more powerful than we have today.
-- **Human-like intelligence:** Learning, complex problem-solving, reasoning, and adapting to new situations.
-- **Going beyond training:** It would be able to learn and perform new tasks without explicit programming.
-- **Self-teaching/learning:** It would be able to learn and improve on its own without needing constant human intervention.
-- **Scientific breakthroughs:** It could accelerate scientific discovery by analyzing vast amounts of data.
-- **Boosting human productivity:** It can handle any intellectual task, freeing you up to focus on creative endeavours.
+- **Definition:** A hypothetical form of AI that is far more advanced than current system.
+- **Human-like Intelligence:** Capable of learning, reasoning, solving complex problems, and adapting to new situations.
+- **Beyond Training:** Can learn and perform new tasks without explicit programming.
+- **Self-learning:** Improves on its own without constant human intervention.
+- **Scientific Breakthroughs:** Could accelerate discoveries by analyzing massive datasets.
+- **Boosting Productivity:** Handles any intellectual task, allowing humans to focus on creativity and innovation.
 
 ## **Artificial Super Intelligence (ASI)**
-- ASI refers to a stage of AI that surpasses human intelligence across all fields.
-- Including creativity, general wisdom, and problem-solving capabilities.
-- **Unmatched cognitive abilities:** Process information at lightning speed. Analyze complex patterns instantaneously.
-- **Self-improvement:** It could learn and potentially even rewrite/update/enhance its code to become even more intelligent.
-- **Current state of ASI:** Purely hypothetical, actively debated, ethical considerations.
-- **Potential of ASI:** Solving global problems (Climate, disease, poverty), scientific breakthroughs, boosting human potential.
-- **Risks of ASI:** Existential threat, unforeseen consequences (actions we can't predict), job displacement.
+- **Definition:** A theoretical stage of AI that surpasses human intelligence in every domain.
+- **Creativity & Wisdom:** Outperforms humans in innovation and decision-making.
+- **Unmatched Cognitive Power:** Processes information at lightning speed and analyzes complex patterns instantly.
+- **Self-Improvement:** Can learn continuously and even rewrite or enhance its own code to become more intelligent.
+- **Current Status** Purely hypothetical, actively debated with strong ethical considerations.
+- **Potential Benefits:** Solve global challenges like climate, disease, and poverty.
+- **Breakthroughs:** Drive scientific breakthroughs and amplify human potential, productivity and creativity.
+- **Risks:** Existential threat and unpredictable consequences. Large-scale job displacement and social disruption.
 
 ## **Attention Mechanism | Self Attention:**
-- The attention mechanism is a powerful technique used in various AI models to focus on important parts of the input data.
+- **Definition:** The attention mechanism is a powerful technique used in various AI models to focus on important parts of the input data.
 - How the attention mechanism works:
   1. Scanning the input data: See a variety of words in a sentence, or object in an image.
   2. Focusing on the query vector: Focus on the words or subject/topic which is most important in the query/prompt.
