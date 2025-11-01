@@ -1,8 +1,8 @@
-# **Glossary of GenAI**
+# Glossary of GenAI
 
 Most important: Token, context length, temperature, modality, generation length, embedding, etc.
 
-## **Agents (AI Assistant)**
+## Agents (AI Assistant)
 - AI agents are systems that can interact with their environment, learn from experience, and perform tasks autonomously.
 - These are designed to understand instructions and complete tasks using their knowledge and capabilities.
 - **Autonomy:** They act independently, making decisions and taking actions without constant human input.
@@ -13,18 +13,18 @@ Most important: Token, context length, temperature, modality, generation length,
 - Example: GenAI agents can plan a trip, find hotels, and flights, research activities, and make reservations.
 - GenAI agents boost productivity by automating tasks and streamlining workflows.
 
-**Types of agents**
+### Agent Types
 1. **Rule-based:** Operate using a set of predefined rules. Decisions are made strictly based on these rules.
 2. **Reactive:** Respond directly to changes in the environment without considering past states or future consequences.
 3. **Goal-based:** Work toward achieving specific goals. Plan actions to reach those goals efficiently.
 4. **Learning:** Improve performance over time by learning from experience. Adapt their behavior based on feedback and outcomes.
 
-## **Annotation**
+## Annotation
 - The process of labelling or tagging data to train and fine-tune AI models.
 - Annotation helps models learn patterns, context, and meaning in data.
 - Text: POS Tagging, Sentiment Analysis | Image: Caption or labels | Audio: Transcripts (speech-to-text) or Lyrics.
 
-## **Artificial General Intelligence (AGI)**
+## Artificial General Intelligence (AGI)
 - **Definition:** A hypothetical form of AI that is far more advanced than current system.
 - **Human-like Intelligence:** Capable of learning, reasoning, solving complex problems, and adapting to new situations.
 - **Beyond Training:** Can learn and perform new tasks without explicit programming.
@@ -32,7 +32,7 @@ Most important: Token, context length, temperature, modality, generation length,
 - **Scientific Breakthroughs:** Could accelerate discoveries by analyzing massive datasets.
 - **Boosting Productivity:** Handles any intellectual task, allowing humans to focus on creativity and innovation.
 
-## **Artificial Super Intelligence (ASI)**
+## Artificial Super Intelligence (ASI)
 - **Definition:** A theoretical stage of AI that surpasses human intelligence in every domain.
 - **Creativity & Wisdom:** Outperforms humans in innovation and decision-making.
 - **Unmatched Cognitive Power:** Processes information at lightning speed and analyzes complex patterns instantly.
@@ -42,68 +42,85 @@ Most important: Token, context length, temperature, modality, generation length,
 - **Breakthroughs:** Drive scientific breakthroughs and amplify human potential, productivity and creativity.
 - **Risks:** Existential threat and unpredictable consequences. Large-scale job displacement and social disruption.
 
-## **Attention Mechanism | Self Attention:**
-- **Definition:** The attention mechanism is a powerful technique used in various AI models to focus on important parts of the input data.
-- How the attention mechanism works:
-  1. Scanning the input data: See a variety of words in a sentence, or object in an image.
-  2. Focusing on the query vector: Focus on the words or subject/topic which is most important in the query/prompt.
-  3. Checking each vector: Compare with each word and see if it has a relevant relationship or information.
-  4. Prioritizing the ones (Assigning weights): Relevant information gets a higher weight (more attention)
-  5. Weighted sum: You collect the relevant information as compared to irrelevant ones.
-- Example:
-  - Machine Translation: You are translating "The red car is parked in the driveway". The model attends more to "red" and "car"
-  - Text summarization: Summarizing a news article, the model attends to keywords like "earthquake" or "fire" to create a concise summary.
-  - Question answering: Answer "What is the colour of the car?" The model attends to the colours to find the answer.
-- By focusing on relevant parts of the data, the attention mechanism helps models make better predictions/decisions in various tasks.
+## Attention Mechanism | Self Attention
+- **Definition:** A technique used in AI models to focus on the most relevant parts of input data, improving predictions.
 
-## Autoregressive Model:
-- Autoregressive (AR) models are statistical models that predict a variable's future value based on its past values.
-- They assume that the current value is the linear combination of the past values with some random error term.
-- The model is trained to maximize the likelihood of the next word given the preceding context.
-- Application: Stock Price Prediction, collect data, determine the order, estimate coefficients and make predictions.
+## How the attention mechanism works:
+1. **Scan Input:** Look at all the elements (e.g., words in a sentence, or objects in an image).
+2. **Focusing on Query:** Identify which parts are most relevant to the query or task.
+3. **Compare Vectors:**  Check relationships between the query and each element.
+4. **Assign Weights:** Give higher weights to relevant elements (more attention).
+5. **Weighted Sum:** Combine important information while reducing irrelevant details.
 
-**Limitations of AR Model**
+### Example:
+- **Machine Translation:** Translating "The red car is parked in the driveway". Focus to "red" and "car".
+- **Text Summarization:** Summarizing a news article. Focus on keywords like "earthquake" or "fire".
+- **Question Answering:** Answer for "What is the colour of the car?". Focus to color-related words.
+
+## Autoregressive Model (AR):
+- Definition: A statistical model that predicts a variable’s future value based on its past values.
+- They assume that the current value is the linear combination of the previous values with a random error term.
+- Used in language models to predict the next word given the preceding context.
+- **Training Objective:** maximize the likelihood of the next token based on prior tokens.
+
+### Example: 
+Stock Price Prediction: Collect historical data, determine the order, estimate coefficients and make predictions.
+
+### Limitations of AR Model
 - **Stationarity:** AR models assume that the time series is stationary (statistical properties do not change over time)
-- **Linearity:** The AR model assumes a linear relationship between the current value and past values.
-- **Limited forecasting horizon:** AR models may not be accurate for long-term predictions.
+- **Linearity:** The AR model assumes a linear relationship between the current and past values.
+- **Limited Forecasting Horizon:** Accuracy decreases for long-term predictions.
 
-## **Bots (Automated Agents)** 
+## Bots (Automated Agents)
 - Bots are automated programs that perform specific tasks or interact with users, often simulating human behaviour.
-- They can be very simple or complex, but their core function is to automate repetitive actions.
-- **Applications:** Chatbots, social media bots, search engine bots, recommendation bots, personal assistant bots.
-- **Benefits:** Efficiency, 24/7 availability, consistency, scalability, save time and effort.
+- They can be very simple or complex, but their core function is to automate repetitive actions to save time and efforts.
 
-## **Chatbots**
+### Applications 
+1. **Chatbots:** Customer support, FAQs
+2. **Social Media Bots:** Posting, engagement analytics
+3. **Search Engine Bots:** Crawling and indexing web pages
+4. **Recommendation Bots:** Suggesting products and contents
+5. **Personal Assistant Bots:** Scheduling, reminders, task management
+
+### Benefits 
+- **Efficiency:** Automate routine tasks
+- **24/7 Availability:** Always active
+- **Consistency:** Delivers uniform responses
+- **Scalability:** Handles large volumes of tasks 
+- **Time Saving:** Reduce manual effort
+
+## Chatbots
 - Chatbots are a specific type of bot designed for simple, rule-based system conversation with pre-defined responses.
 - They use NLP and ML to understand and respond to user input/queries in a chat-like interface.
 - Chatbots can be used for customer service, answering FAQs, scheduling appointments, or even providing entertainment.
 - Examples: WhatsApp Meta AI, Google Message Chat Gemini Assistant, Apple Siri, and Career Website Chatbots.
 
-## **ChatGPT (Generative Pre-trained Transformers)**
-- ChatGPT leverages large language models (LLMs) to allow users to have human-like interactions.
+## ChatGPT (Generative Pre-trained Transformers)
+- **Definition:** ChatGPT is a conversational AI built on LLMs, enabling human-like interactions.
 - ChatGPT is trained to hold conversations that flow and adapt based on user input/queries/prompts.
-- It can consider previous prompts (history) and replies to maintain context within a conversation.
-- You can specify the length, format, style, and level of detail you prefer for the responses.
-- Generates human-quality text, translates languages, writes different kinds of creative content, and answers questions.
-- Have engaging conversations, brainstorm ideas, and compose emails, poems, articles, letters, codes, scripts, music, etc.
-- ChatGPT is a powerful tool for conversation, creative exploration, and information gathering.
-- GPT models are based on the transformer architecture, which processes and generates human-like text by learning from vast amounts of data.
-- The pre-trained aspect refers to the initial extensive training these models undergo on large text corpora.
-- Allowing them to understand and predict language patterns, context, and aspects of world knowledge.
+- It considers previous prompts (history) and responses to maintain context within a conversation.
+- Adapts the user instructions for length, format, style, and level of detail for the responses.
+- Generates human-quality text, translates languages, writes diverse creative content, and answers questions.
+- Engaging conversations, brainstorm ideas, and compose emails, poems, articles, codes, scripts, music, etc.
+- GPT models are based on the transformer architecture, which processes and generates human-like text by learning.
+- Pre-trained: Initially trained on large text corpora to understand language, context, and world knowledge.
+- Combines context-awareness, creativity, and adaptability for tasks ranging from casual to professional.
 
-## **Completions**
-- Completions are the output produced by AI in response to a given input or prompt.
-- When a user inputs a prompt, the AI model processes it and generates text that logically follows or completes the given input.
-- Completions are based on the patterns, structures, and information the model has learned during its training phase on vast datasets.
+## Completions
+- Completions are the output generated by an AI in response to a given input or prompt.
+- When a user provides a prompt, the AI processes and generates text that logically follows or completes the input.
+- Completions rely on patterns, structures, and knowledge learned during the training phase on vast datasets.
 
 ## Context Length
-- Defines how much of the previous text the model considers when generating next content.
-- A larger context allows the model to produce more relevant output.
+- The amount of previous text (conversation history or tokens) the model considers when generating the next output.
+- A **larger context length** allows the model to produce more relevant responses by retaining more history.
+- A **smaller context length** may lead to loss of context, resulting in less accurate or disconnected outputs.
 
 ## Context Window
-- The context window is the maximum number of tokens that an AI model can process and consider simultaneously when generating a response.
-- It is essentially the “memory” capacity of the model during an interaction or task.
-- Models with larger context windows can handle larger attachments/prompts/inputs and sustain “memory” of a conversation for longer.
+- The maximum number of tokens an AI model can process and consider at once when generating a response.
+- The “memory” capacity of an AI model during an interaction or task.
+- **Larger context windows** can handle larger attachments/prompts and maintain conversation history for longer.
+- **Smaller context windows** limit how much prior information the model can use, which may affect relevance.
 
 ## **Conversational AI**
 - AI that enables computers to communicate and interact with humans in a natural language, such as text or voice.
