@@ -122,11 +122,11 @@ Stock Price Prediction: Collect historical data, determine the order, estimate c
 - **Larger context windows** can handle larger attachments/prompts and maintain conversation history for longer.
 - **Smaller context windows** limit how much prior information the model can use, which may affect relevance.
 
-## **Conversational AI**
-- AI systems that enable computers to communicate with humans in natural language (text or voice).
-- Designed to simulate human conversation, making interactions feel natural and engaging.
-- Uses Natural Language Processing (NLP) to interpret meaning, context, slang, and even sarcasm.
-- Understands user input and generates appropriate responses.
+## Conversational AI
+- AI systems that let computers talk to people using natural language, either through text or voice.
+- They’re built to mimic human conversations, making interactions natural and engaging.
+- They use Natural Language Processing (NLP) to understand meaning, context, slang, and even sarcasm.
+- Based on what the user says, they generate relevant and helpful responses.
 - Customer service chatbots, language learning apps, virtual assistance (Alexa, Siri, Google), social media bots, etc.
 - Benefits: Improved customer experience, increased efficiency, personalized experiences, and accessibility.
 
@@ -144,26 +144,27 @@ Stock Price Prediction: Collect historical data, determine the order, estimate c
 - Example: Find synonyms, product recommendations, document retrieval and image similarity search.
 
 ## **Encoder-Decoder**
-- Encoder-decoders are like translators that can handle more than just words.
-- **The Encoder:** Understanding the language, hears individual words, grasps the overall meaning, important ideas, and relationship between things. It gathers clues and pieces them together to form a condensed summary that captures the essence of the message.
-- **The Decoder:** It receives the summarized message from the encoder (the context vector). The decoder uses its understanding of human language to craft a message that makes sense to humans. It considers the flow and order of words to create a natural-sounding explanation in our language.
+- Encoder-decoder models work like smart translators that do more than just convert words.
+- **Encoder:** Reads and understands the input, picking up key ideas, meanings, and relationships.
+- It creates a compact summary (called a context vector) of the message.
+- **Decoder:** Takes that summary and turns it into a meaningful output, like a sentence or translation.
+- It arranges words in a natural way that makes sense to humans.
 
 **Understanding the concept:**
-1. **Feeding the Encoder:** The encoder gets the message as input. This could be a sentence or an image they showed you.
-2. **Making Sense of the Message:** The encoder analyzes the input piece by piece. It might use advanced techniques like recurrent neural networks (RNNs) to understand the sequence and how elements relate to each other.
-3. **Encoding the Message:** As it processes the message, the encoder builds a context vector. This vector is like a cheat sheet with the key points and overall meaning extracted from the message.
-4. **The Decoder:** Receives the context vector, like a summary briefing.
-5. **Decoding into Human Terms:** Based on the context vector and its knowledge of the human language, the decoder starts generating our response. It might translate words, describe what it sees in an image, or even create a story based on the message.
-6. **Building the Output:** The decoder might predict one word at a time, using the context vector and previous outputs to refine its understanding and create a coherent response.
+1. **Feeding the Encoder:** The encoder takes in the input, this could be a sentence, an image, or any other data.
+2. **Making Sense of the Message:** It breaks down the input step by step, often using advanced methods like Recurrent Neural Networks (RNNs) to understand the order and relationships between parts.
+3. **Encoding the Message:** As it processes the input, the encoder creates a context vector, a compact summary that captures the key meaning and important details.
+4. **Passing to the Decoder:** The decoder receives this context vector, like getting a summarized version of the original message.
+5. **Decoding into Human Terms:** Using the context and its knowledge of language, the decoder starts generating a response. This could be a translation, a description, or even a story.
+6. **Building the Output:** The decoder usually predicts one word at a time, using the context and previous words to build a meaningful sentence.
 
 **Applications:**
 1. **Machine Translation:** Breaking down language barriers by translating between human languages.
 2. **Text Summarization:** Condensing lengthy articles or documents into key points.
 3. **Image Captioning:** Describing the content of an image in words.
-4. **Text Generation:** Creating different creative text formats like poems, code, scripts, or musical pieces based on a given idea.
+4. **Text Generation:** Creating different creative text formats like poems, code, or scripts based on a given idea.
 
 ## Explainable AI (XAI)
-
 - A subfield of AI that focuses on making ML models more transparent and understandable.
 - It aims to provide insights into how a model arrives at its decisions, making it easier for humans to trust and interpret the results.
 
@@ -191,38 +192,38 @@ Stock Price Prediction: Collect historical data, determine the order, estimate c
 2. **Trade-off with Accuracy:** Sometimes, making a model more explainable can reduce its accuracy.
 3. **Interpretability vs. Accuracy:** There can be a trade-off between making a model easily understandable and ensuring it performs well.
 
-## **Few Shot Learning**
-- A concept where the model is designed to learn and make accurate predictions or decisions based on a very limited amount of training data.
-- Traditional machine learning models typically require large datasets to learn effectively.
-- Few-shot learning techniques enable AI models to generalize from a small number of examples, often just a handful or even a single instance.
-- This approach is especially valuable in situations where collecting large datasets is impractical or impossible, such as specialized academic fields or rare languages.
+## Few Shot Learning
+- Few short learning allows AI models to learn and make accurate predictions using only few examples.
+- Traditional ML usually needs large datasets to perform well.
+- In contrast, few-shot learning helps models generalize from just a few samples sometimes even a single example.
+- Useful in areas where collecting lots of data is difficult, like rare languages or specialized scientific fields.
 
-## **Fine Tuning**
-- The process of taking a pre-trained AI model and further training it on a specific, often smaller, dataset to adapt it to particular tasks.
-- Relevant in scenarios where a GenAI model, trained on varied datasets, needs to be specialized or optimized for specific applications.
+## Fine Tuning
+- Fine-tuning is the process of taking a pre-trained AI model and training it further on a smaller, specific dataset.
+- It helps adapt the model to perform better on specialized tasks or domains.
+- Useful when a general-purpose AI needs to be customized for a particular application or industry.
 
-## **Generative AI** 
-- AI systems that can generate new content such as texts, images, audio, and video—in response to prompts by a user.
-- After being trained on an earlier set of data.
+## Generative AI
+- GenAI refers to systems that can create new content—like text, images, audio, or video based on user prompts.
+- These models are trained on large datasets and learn patterns to generate original outputs.
 - **Text:** ChatGPT, Gemini, Meta AI | **Image:** DALL E, Ideogram, Midjourney | **Video:** Sora
 
-## Generation Lenght
+## Generation Length
 - The length of the output the model generates.
 - It can be adjusted based on the task, whether you're looking for a brief summary or detailed explanation.
 
-## **Hallucinations** 
-- Incorrect or misleading results that AI models generate. These errors can be caused by a variety of factors
+## Hallucinations
+- Incorrect or misleading response generated by the AI. These errors can be caused by a variety of factors
 - Factors: Insufficient training data, incorrect assumptions made by the model, or biases in the data used to train the model.
 - The concept of AI hallucinations underscores the need for critical evaluation and verification of AI-generated information.
 
-## **Inference** 
+## Inference
 - The process where a trained AI model applies its learned knowledge to new, unseen data to make predictions, decisions, or generate content.
 - It is essentially the phase where the AI model, after being trained on a large dataset, is now being used in real-world applications.
 - During inference, the model utilises its learned patterns to perform the specific tasks it was designed for.
 - Example: A language model that has been trained on a vast corpus of text can perform inference by generating a new essay, answering a student’s query, or summarizing a research article.
 
-## **Intelligent Decision Automation (IDA)**
-
+## Intelligent Decision Automation (IDA)
 - A technological approach that leverages AI and ML to automate decision-making processes.
 - It involves using data-driven models to analyze information, identify patterns, and make informed decisions without human intervention.
 
@@ -259,41 +260,35 @@ Stock Price Prediction: Collect historical data, determine the order, estimate c
 3. **Ethical Implications:** The use of AI in decision-making raises ethical concerns, such as bias and accountability.
 4. **Technical Expertise:** Implementing IDA requires specialized skills and knowledge in data science and machine learning.
 
-## **Knowledge Graph:**
-
+## Knowledge Graph:
 - A semantic network that represents knowledge as a graph of interconnected entities and their relationships.
 - It's essentially a database where information is structured as a series of nodes (entities) connected by edges (relationships). 
 
-### **Key Components:**
-
+### Key Components:
 1. **Nodes:** These represent entities, such as people, places, things, or concepts.
 2. **Edges:** These represent the relationships between entities. For instance, "isMarriedTo," "worksFor," or "locatedIn."
 3. **Properties:** These are attributes associated with nodes, such as "name," "age," or "color."
 
-### **Example:**
-
+### Example:
 Consider a simple knowledge graph about a person named Alice:
-
 1. **Node:** Alice
 2. **Properties:** name (Alice), age (30), city (New York)
 3. **Edge:** livesIn (connects Alice to New York)
 
-### **Applications of Knowledge Graphs:**
-
+### Applications of Knowledge Graphs:
 1. **Search Engines:** Improved search results by understanding the context and relationships between entities.
 2. **Recommendation Systems:** Personalized recommendations based on user preferences and item relationships.
 3. **Question Answering:** Answering complex questions by leveraging the interconnected knowledge.
 4. **Natural Language Processing:** Understanding the meaning of text by recognizing entities and their relationships.
 5. **Semantic Web:** Building a web of interconnected data that machines can understand and process.
 
-### **Benefits of Knowledge Graphs:**
-
+### Benefits of Knowledge Graphs:
 * **Enhanced Understanding:** Provide a structured way to represent and understand complex information.
 * **Improved Search:** They enable more accurate and relevant search results.
 * **Better Decision Making:** Support data-driven decision-making by providing insights into relationships and trends.
 * **Automation:** Tasks such as information extraction and natural language processing can be automated using knowledge graphs.
 
-### **Popular Knowledge Graph Platforms:**
+### Popular Knowledge Graph Platforms:
 1. **Google Knowledge Graph:** Used by Google Search to provide rich information about entities.
 
 ![Google Knowledge Graph](https://github.com/iamkirankumaryadav/GenAI/blob/df97c2d0a5a9513a57532cbde983bdfd0044a52e/Image/Google%20Knowledge%20Graph.png)
@@ -306,13 +301,13 @@ Consider a simple knowledge graph about a person named Alice:
 
 ![RDF Graph](https://github.com/iamkirankumaryadav/GenAI/blob/df97c2d0a5a9513a57532cbde983bdfd0044a52e/Image/RDF%20Graph.png)
 
-## **Large Language Models (LLMs)** 
+## Large Language Models (LLMs)
 - AI systems specifically designed to understand, generate, and interact with human language on a large scale.
 - These models have been trained on enormous datasets for a long time comprising a wide range of text sources.
 - Enabling them to grasp the complexities, relationships, meanings and varied contexts of natural language.
 - LLMs like GPT use particularly transformer architectures, to process and predict text sequences.
 
-## **Model**
+## Model
 - Models are the algorithms that enable GenAI to process data, learn patterns, and perform tasks such as generating text, and images.
 - Essentially, it is the core framework that embodies an AI’s learned knowledge and capabilities.
 - A model is created through a process called training, where it is fed large amounts of data and learns to recognize patterns, make predictions, or generate outputs based on that data.
@@ -577,10 +572,10 @@ Consider a simple knowledge graph about a person named Alice:
 3. **Integration:** Integrating voice-driven analytics with existing data platforms and tools can be challenging.
 4. **User Experience:** Designing a user-friendly and intuitive voice interface is essential for successful adoption.
 
-## **Zero-Shot Learning**
-- A concept where an AI model learns to perform tasks that it has not explicitly been trained to do.
-- Unlike traditional ML methods that require examples from each class or category they’re expected to handle,
-- Zero-shot learning enables the model to generalize from its training and make inferences about new, unseen categories.
-- This is achieved by training the model to understand and relate abstract concepts or attributes that can be applied broadly.
-- For instance, a model trained in zero-shot learning could categorize animals it has never seen before. e.g. Unicorn
-- It infers knowledge about these new categories by relying on its understanding of the relationships and similarities between different concepts.
+## Zero-Shot Learning
+- When an AI can do tasks it wasn't explicitly trained for.
+- Unlike traditional ML methods that require examples to learn and handle new unseen scenario,
+- The model uses its knowledge of relationships and similarities between concepts to make educated guesses.
+
+### Example:
+A zero-shot model could recognize an animal it has never seen before, like a unicorn, by understanding its features and comparing them to known animals.
