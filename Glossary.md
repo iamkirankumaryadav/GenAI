@@ -218,8 +218,8 @@ Stock Price Prediction: Collect historical data, determine the order, estimate c
 - The concept of AI hallucinations underscores the need for critical evaluation and verification of AI-generated information.
 
 ## Inference
-- The process where a trained AI model applies its learned knowledge to new, unseen data to make predictions, decisions, or generate content.
-- It is essentially the phase where the AI model, after being trained on a large dataset, is now being used in real-world applications.
+- The process where a trained AI model applies its knowledge to new data to make predictions, decisions, or generate content.
+- The phase where the AI model, after being trained on a large dataset, is now being used in real-world applications.
 - During inference, the model utilises its learned patterns to perform the specific tasks it was designed for.
 - Example: A language model that has been trained on a vast corpus of text can perform inference by generating a new essay, answering a student’s query, or summarizing a research article.
 
@@ -401,68 +401,63 @@ Consider a simple knowledge graph about a person named Alice:
 - These artificial neurons process information and transmit signals to other connected neurons.
 - While the first layer processes the input data, the final layer delivers the results.
 
-## **Natural Language Programming (NLP)**
+## Natural Language Programming (NLP)
 - NLP is a field at the intersection of computer science, AI, and linguistics.
 - A subfield of AI and linguistics that focuses on enabling machines to understand, interpret, and generate human language.
 - Focused on enabling computers to understand, interpret, and generate human language in a way that is both meaningful and useful.
-- The development of algorithms that can analyze, comprehend, and respond to text or voice data like how humans do.
 
-### **Parameters**
-- During training, a GenAI model is exposed to vast amounts of data.
-- By adjusting the values of its parameters, the model learns to identify patterns and relationships within the data.
-- It's like fine-tuning the connections between the nodes to achieve the desired outcome.
-- Parameters are the core components that define the behaviour of the model and determine how it processes input data to produce output.
-- GenAI has two main important parameters: Weights and biases associated with the neurons.
-- Weights: A higher weight signifies a stronger connection and a greater impact on the final output.
-- Biases: Act like thresholds, shifting the activation level, allowing the neuron to adjust its output independently of its input.
-- The model adjusts these parameters to minimize the difference between its output and the actual data.
-- The better these parameters are tuned, the more accurately the model can perform its intended task
-- Increased Training Time: Training a model with billions of parameters can take days or even weeks on powerful hardware.
-- Computational Demands: Running such models also requires significant computational resources.
-- Overfitting: With too many parameters, it can become overly focused on the training data and struggle to perform well on unseen data.
+### Parameters
+- A GenAI model learns by adjusting its parameters while training on large datasets.
+- Parameters define how the model processes input and generates output. They includes weights and biases.
+- **Weights:** Indicate the strength of connections; higher weights have a greater impact on the output.
+- **Biases:** Act as thresholds, allowing neurons to adjust outputs independently of inputs.
+- The model tunes these parameters to reduce the gap between predicted and actual results.
+- Well-tuned parameters improve accuracy and performance.
+- **Training Time:** Models with billions of parameters can take days or weeks to train on powerful hardware.
+- **Computational Demands:** Running these models requires significant resources.
+- **Overfitting:** Too many parameters can make the model overly focused on training data, reducing performance on new data.
 
-## **Positional Encoding**  
-- A technique used in ML models, particularly transformers, to address the order of elements within a sequence.
-- Unlike RNNs, which process information sequentially, transformers handle all elements in a sequence simultaneously.
+## Positional Encoding
+- A method used in machine learning models, especially transformers, to represent the order of elements in a sequence.
+- Unlike RNNs that process data step by step, transformers process all elements simultaneously.
 
-**The Problem: Missing Order Information**
+### The Problem: Missing Order Information
 - Imagine you have a sentence like "The quick brown fox jumps over the lazy dog."
-- A transformer model sees all the words at once, like looking at a jumbled mess of letters.
-- Without understanding the order, it can't grasp the relationships between words or the overall meaning of the sentence. 
+- A transformer processes all words at once, without any sense of order.
+- The model sees the words like a random collection, making it hard to understand relationships or meaning.
 
-**The Solution: Adding Positional Information**
-- Positional encoding assigns a unique code to each element (word) in the sequence.
-- This code doesn't just contain random numbers, it captures the element's position in a way the model can understand.
-- Think of it like seat numbers on an aeroplane. Each word gets a unique "seat number" that tells the model its position relative to other words.
+### The Solution: Adding Positional Information
+- Positional encoding gives each word a unique code that represents its position in the sequence.
+- These codes aren’t random, they’re designed so the model can interpret relative positions.
+- Think of it like seat numbers on an airplane: each word gets a “seat number” that tells the model where it belongs.
 
-**Creating the Codes: Sine and Cosine Functions**
-- The specific code for each position is often calculated using sine and cosine functions.
-- These functions create a wave-like pattern that repeats over the sequence length.
-- The advantage of using sine and cosine functions is that they can represent a wide range of positions effectively.
+### Creating the Codes: Sine and Cosine Functions
+- Positional codes are often generated using **sine** and **cosine** functions.
+- These functions create smooth, wave-like patterns that repeat across the sequence.
+- They allow the model to represent positions in a way that captures both absolute and relative order effectively.
 
-**Benefits of Positional Encoding**
-- **Improved Understanding of Order:** The model can learn how the order of elements affects the overall meaning.
-- **Better Performance in Sequence Tasks:** Positional encoding has significantly improved the performance of transformers in tasks like machine translation, text summarization, and question answering.
-- **Flexibility:** The core concept of adding positional information remains crucial for transformers to function effectively with sequences.
+### Benefits of Positional Encoding
+- Helps the model learn how word order affects meaning.  
+- Boosts transformer accuracy in tasks like translation, summarization, and question answering.
+- Adding positional information is critical for handling sequential data effectively.
 
-## **Prompt**
-- A prompt is the input given to an AI model to initiate or guide its generation process.
-- This input acts as a set of instructions that the AI uses to produce its output.
-- Prompts are crucial in defining the nature, scope, and specificity of the output generated by the AI system.
-- For instance, in a text-based GenAI model like GPT, a prompt could be a sentence or a question that the model then completes or answers in a coherent and contextually appropriate manner.
+## Prompt
+- A prompt is the input provided to an AI model to guide its output.
+- It acts as instructions that define the nature, scope, and specificity of the response.
+- Prompts are critical for shaping the quality and relevance of the generated content.
+- A prompt could be a question or sentence that the model completes or answers in context.
 
-## **Prompt Engineering**
-- Prompt engineering refers to the crafting of input prompts to effectively guide AI models in producing specific and desired outputs.
-- This practice involves formulating and structuring prompts to leverage the AI’s understanding and capabilities.
-- Optimizing the relevance, accuracy, and quality of the generated content.
+## Prompt Engineering
+- Prompt engineering is the practice of crafting prompts to guide AI models toward producing specific, desired outputs.
+- It involves structuring and optimizing prompts to make the most of the model’s capabilities.
+- The goal is to improve the **relevance**, **accuracy**, and **quality** of generated content.
 
-## **Reinforcement Learning**
-- A type of ML where an agent learns to make decisions by performing actions in an environment to achieve a certain goal.
-- The learning process is guided by feedback in the form of rewards or punishments.
-- Positive reinforcement for desired actions and negative reinforcement for undesired actions.
-- The agent learns to maximize its cumulative reward through trial and error, gradually improving its strategy over time.
+## Reinforcement Learning
+- A type of ML where an agent learns by interacting with an environment to achieve a goal.
+- The agent receives feedback in the form of rewards (for desired actions) or penalties (for undesired actions).
+- Through trial and error, the agent improves its strategy to maximize cumulative rewards over time.
 
-## **Retrieval Augmented Generation (RAG)**
+## Retrieval Augmented Generation (RAG)
 - A technique that combines the strengths of LLMs with external knowledge sources beyond its training data.
 - It enhances the accuracy, relevance, and factuality of AI-generated text by providing the model with up-to-date information.
 - User Input: When a user asks a question, query or provide a prompt.
@@ -483,44 +478,44 @@ Consider a simple knowledge graph about a person named Alice:
   -  **Relationships:** The connections between people (e.g., 'is a parent of', 'is a child of')
   -  **Attributes:** The characteristics of each person (e.g., 'name', 'age', 'occupation')
       
-## **Semantic Network** 
-- A knowledge representation method used in AI to model relationships between concepts.
+## Semantic Network
+- A knowledge representation technique in AI that models relationships between concepts.
 - It's like a mind map, where concepts are like bubbles and the connections between them show how they're related. 
-- Nodes: These represent the concepts, entities, objects (car, house) or abstract ideas (love, freedom).
-- Links: These connect the nodes and represent the relationships between the concepts by labelling.
+- Nodes represent concepts, entities, objects (car, house) or abstract ideas (love, freedom).
+- Links connects the nodes and represent the relationships between the concepts by labelling.
 
-## **Softmax Output**
-- In the context of neural networks, is the result of applying the softmax function to the final layer of a network with multiple output classes.
-- This function takes a vector of real numbers as input and transforms them into a probability distribution across those classes.
-- **Multiple Classes:** Softmax is typically used in tasks where the network needs to classify an input into one of several discrete categories.     - Example: An image recognition model might have multiple classes for different objects (cat, dog, car, etc.).
-- **Probabilities:** Unlike the raw output values from the network, which might be simple scores, the softmax output gives you a probability for each class. These probabilities range between 0 and 1, and they all sum up to 1.
-- **Interpreting the Output:** The highest value in the softmax output represents the class that the network is most confident the input belongs to. The closer a value is to 1, the higher the confidence. Conversely, values closer to 0 indicate lower confidence.
-- For instance, imagine a softmax output vector: [0.1, 0.8, 0.1]. Here, the second element (0.8) is the highest, suggesting the network is 80% confident the input belongs to class 2. The other classes have a much lower probability (10% each).
+## Softmax Output
+- In neural networks, softmax is applied to the final layer when there are multiple output classes.
+- It converts raw scores (logits) into a probability distribution across all classes.
+- Classification tasks where the model predicts one of several categories (e.g., image recognition: cat, dog, car).
+- **Probabilities:** Each output is between 0 and 1, and all outputs sum to 1.
+- **Interpretation:** The class with the highest probability is the model’s prediction.
+- **Example:** [0.1, 0.8, 0.1] → The second class has 80% confidence.
 
 **Why Softmax?**
-- **Clear Interpretation:** Softmax probabilities are easy to understand and interpret. You can see at a glance which class the network favours and how certain it is about its prediction.
-- **Comparison of Classes:** Softmax allows you to compare the likelihood of the input belonging to different classes. This is crucial for tasks where you need to know not just the most likely class, but also the confidence level in that prediction.
-- **In essence, softmax output provides a probabilistic interpretation of the network's final prediction, making it a valuable tool for tasks involving multi-class classification.**
+- **Clear Interpretation:** Easy to read—you can instantly see which class the model favors and how confident it is.
+- **Class Comparison:** Enables comparing probabilities across all classes.
+- **Probabilistic Insight:** A meaningful probability distribution for multi-class classification tasks.
 
-## **Temperature**
-- A parameter that controls the randomness of the model‘s outputs/responses.
-- When generating text, a higher temperature value leads to more varied and unpredictable outputs.
-- Higher temperature introduces more creativity and variability.
-- While a lower temperature results in more conservative and expected responses.
+## Temperature
+- A parameter that controls the randomness of an AI model’s output.
+- **Higher Temperature:** More creative, varied, and unpredictable responses.
+- **Lower Temperature:** More focused, conservative, and predictable responses.
+- Commonly used in text generation to balance creativity vs. accuracy.
 
 ## Token
 - Token is a smallest unit of text that an AI model understands and processes. Token ~ 4 Characters in english.
 - In NLP, tokens may include whold word, part of word, punctuations, individual characters, and special character.
-- Tokenization is the process of converting text into smaller, manageable units for the AI to analyze and understand.
+- Tokenization is the process of converting text into smaller units for the AI to analyze and understand.
 
 ## Training
 - Training is the process by which an ML model, learns to perform a specific task by understanding patterns in data.
-- This is achieved by exposing the model to a large set of data, known as the training dataset.
-- Allowing it to iteratively adjust its internal parameters to minimize errors in its output.
-- During training, the model makes predictions or generates outputs based on its current state.
-- These outputs are then compared to the desired results, and the difference (or error) is used to adjust the model’s parameters.
-- This process is repeated numerous times, with the model gradually improving its accuracy and ability to perform the task.
-- For example, a language model is trained on vast amounts of text so that it learns to understand and generate human-like language.
+- The model is exposed to a large training dataset and iteratively adjusts its internal parameters to minimize errors.
+- The model makes predictions or generates outputs based on its current state.
+- Predictions are compared to the correct results, and the error is calculated.
+- Parameters are updated to reduce this error.
+- This process is repeated numerous times gradually improving its accuracy and ability to perform the task.
+- For example, a language model is trained on massive text to learn how to understand and generate human-like language.
 
 ## Transformers 
 - A specific type of **Deep Learning** or **Neural Network** architecture that has revolutionized how machines understand, process and generate text.
