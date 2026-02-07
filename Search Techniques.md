@@ -47,8 +47,8 @@ Elastic Search BM25 Algorithm
 - System takes the results form both, fuses them together into a single list, and ranks the most relevant ones at the top.
 
 ## Search Technology Comparison
-Feature |	Keyword Search | Vector Search | Semantic Search | Hybrid Search
-:--- | :--- | :--- | :---- | :---
+Feature |	Keyword Search | Vector Search | Semantic Search | Embeddings | Hybrid Search
+:--- | :--- | :--- | :---- | :--- | :---
 What |	A search for exact text matches. | A search for mathematical proximity. | A search for human intent. | The numerical representation of data. | A combination of Keyword + Vector.
 How | Matches characters/tokens (ABC = ABC). | Calculates distance between points in space. | Interprets context and relationships. | Converts text/images into a list of numbers. | Runs two searches and merges the results.
 Strength | Perfect for names, IDs, and specific codes. | Finds "similar" things without exact words. | Understands "What did the user actually mean?" | Essential "raw material" for Vector search. | The most accurate; covers all bases.
