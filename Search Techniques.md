@@ -21,7 +21,7 @@
 
 ## Semantic Search
 - **Definition:** A retrieval technique focused on intent and contextual meaning rather than exact word matching.
-- **Methodology:** Utilizes vector search alongside advanced layers like knowledge graphs and intent analysis.
+- **Methodology:** Vector search with advanced layers like knowledge graphs and intent analysis.
 - **Applications:** Powers chatbots, customer support tools, and Retrieval-Augmented Generation (RAG) systems.
 - **Strengths:** Excels at understanding natural language, nuances of context, and specific user intent.
 - **Weaknesses:** More complex to implement and prone to "false positives" that are related but irrelevant.
