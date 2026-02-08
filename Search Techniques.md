@@ -36,7 +36,8 @@ Elastic Search BM25 Algorithm
 - For example, it knows that "how to fix a flat" is related to "tire repair".
 - Best for Chatbots, customer support, and question-answering systems (RAG).
 - Understands natural language, context, and user intent.
-- Complex to implement and can occasionally produce "false positives" (results that are semantically related but not what the user wanted). 
+- Complex to implement and can occasionally produce "false positives" (results that are semantically related but not what the user wanted).
+- Finds semantically similar items, transforms data to meaningful embeddings and understand context.
 
 ## Hybrid Search (Modern Standard) 
 - Google Search
