@@ -55,7 +55,7 @@ Analogy | Looking up a word in a Dictionary index. | Finding a house by its GPS 
 - **Similarity Measurement:** The "closeness" is determined using a Distance Metric.
 - **Cosine Similarity:** Measures the angle between vectors, ideal for text where content direction matters more than document length.
 - **Euclidean Distance:** Measures the straight-line distance, best for image analysis or cases where absolute values (like pixel intensity) are key.
-- **Dot Product:** Considers both direction and magnitude; often used when vectors are normalized to unit length.
+- **Dot Product:** Considers both direction and magnitude, often used when vectors are normalized to unit length.
 - **Semantic Matching:** It understands that "canine" is similar to "dog" even though they share no common characters.
 - **Multimodal:** It can compare different data types (e.g., searching for images using a text description) because they all live in the same mathematical space.
 - **Scalability:** Modern systems use libraries like the FAISS Library to handle massive datasets with sub-second latency. 
