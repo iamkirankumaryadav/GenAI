@@ -4,6 +4,7 @@
 - Traditional Method: Matches exact characters or tokens.
 - Exactly like a physical index in textbook or "Ctrl + F" on computer.
 - Simple, fast, and accurate way to find information.
+- Matches keywords, doesn't understands word meanings, lacks the knowledge of context. 
 
 Works in 3 Steps:
 1. The Index: Scans all the documents and makes a giant list of every word it finds.
