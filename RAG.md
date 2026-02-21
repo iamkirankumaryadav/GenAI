@@ -48,6 +48,15 @@
 - After reviewing and creating your knowledge base, you'll need to sync your data source or upload/ingest to generate embeddings.
 - Once syncing is complete, you can start using the RetrieveAndGenerate API to query your knowledge base and get responses based on your private content.
 
+## Real-World Applications
+Knowledge Bases can power various use cases:
+- DevOps documentation search
+- Customer support systems
+- Sales enablement
+- Product training
+- Security operations
+- HR assistance
+
 ### Why use RAG?
 - LLMs are limited to their pre-trained data, this leads to outdated responses.
 - RAG overcomes this by providing up-to-date information to LLMs.
